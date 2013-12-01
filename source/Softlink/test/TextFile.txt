@@ -1,0 +1,126 @@
+﻿<li>
+	<img src="images/agility_logo.gif" height="63" width="107"/>
+</li>
+<li>
+	<img src="images/tnt.jpg" height="63" width="107"/>
+</li>
+<li>
+	<img src="images/airindia_logo.gif" height="63" width="107"/>
+</li>
+<li>
+	<img src="images/dhl_logo.gif" height="63" width="107"/>
+</li>
+<li>
+	<img src="images/indian_oil.jpg" height="63" width="107"/>
+</li>
+<li>
+	<img src="images/nippon_logo.gif" height="63" width="107"/>
+</li>
+<li>
+	<img src="images/essel_propack_logo.gif" height="63" width="107"/>
+</li>
+<li>
+	<img src="images/fedex.jpg" height="63" width="107"/>
+</li>
+<li>
+	<img src="images/onida.jpg" height="63" width="107"/>
+</li>
+<li>
+	<img src="images/bax_logo.jpg" height="63" width="107"/>
+</li>
+<li>
+	<img src="images/timesofindia_logo.gif" height="63" width="107"/>
+</li>
+<li>
+	<img src="images/moserbaer.jpg" height="63" width="107"/>
+</li>
+<li>
+	<img src="images/parle.jpg" height="63" width="107"/>
+</li>
+<li>
+	<img src="images/jmbaxi_logo.gif" height="63" width="107"/>
+</li>
+<li>
+	<img src="images/bajaj_logo.gif" height="63" width="107"/>
+</li>
+<li>
+	<img src="images/provogue.gif" height="63" width="107"/>
+</li>
+<li>
+	<img src="images/bamar_logo.gif" height="63" width="107"/>
+</li>
+<li>
+	<img src="images/videocon_logo.jpg" height="63" width="107"/>
+</li>
+<li>
+	<img src="images/nyk_logistics_logo.gif" height="63" width="107"/>
+</li>
+<li>
+	<img src="images/alfalaval_logo.jpg" height="63" width="107"/>
+</li>
+<li>
+	<img src="images/veljidosabhai_logo.gif" height="63" width="107"/>
+</li>
+<li>
+	<img src="images/flyjac_logo.gif" height="63" width="107"/>
+</li>
+<li>
+	<img src="images/mearsk.jpg" height="63" width="107"/>
+</li>
+<li>
+	<img src="images/Transcon_freight.jpg" height="63" width="107"/>
+</li>
+<li>
+	<img src="images/idmc_logo.gif" height="63" width="107"/>
+</li>
+<li>
+	<img src="images/daga_logo.jpg" height="63" width="107"/>
+</li>
+<li>
+	<img src="images/lexi_logo.jpg" height="63" width="107"/>
+</li>
+<li>
+	<img src="images/batliboi_logo.gif" height="63" width="107"/>
+</li>
+<li>
+	<img src="images/gfl.jpg" height="63" width="107"/>
+</li>
+<li>
+	<img src="images/sical_logo.jpg" height="63" width="107"/>
+</li>
+<li>
+	<img src="images/egl_logo.gif" height="63" width="107"/>
+</li>
+<li>
+	<img src="images/robinsons_logo.gif" height="63" width="107"/>
+</li>
+<li>
+	<img src="images/sahil_freight_logo.gif" height="63" width="107"/>
+</li>
+<li>
+	<img src="images/basf_logo.gifd" height="63" width="107"/>
+</li>
+<li>
+	<img src="images/hellman_log.jpg" height="63" width="107"/>
+</li>
+<li>
+	<img src="images/huber_logo.jpg" height="63" width="107"/>
+</li>
+<li>
+	<img src="images/wilson_sandhu_logo.jpg" height="63" width="107"/>
+</li>
+<li>
+	<img src="images/tulsidas_khimji_logo.gif" height="63" width="107"/>
+</li>
+<li>
+	<img src="images/atc_clearing.jpg" height="63" width="107"/>
+</li>
+<li>
+	<img src="images/dsv_Logo.gif" height="63" width="107"/>
+</li>
+<li>
+	<img src="images/liladhar_passo_logo.jpg" height="63" width="107"/>
+</li>
+<li>
+	<p style="font-weight: bold"> and many more ... </p>
+</li>

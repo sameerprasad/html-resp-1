@@ -1,0 +1,515 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Application.master.cs" Inherits="Application" %>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Softlink</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+    <link href="/bootstrap/css/bootstrap-2.min.css" rel="stylesheet" media="screen" />
+    <link href="/styles/application-2.css?v=1" rel="stylesheet" media="screen" />
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="/scripts/html5shiv.js"></script>
+        <script src="/scripts/respond.min.js"></script>
+    <![endif]-->
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="wrapper">
+        <!-- TOP HEADER STARTS -->
+        <div class="container top-block">
+            <div class="row">
+                <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12 top-block-left">
+                    <div class="top-block-logo">
+                        <!-- LOGO -->
+                        <a href="/index.aspx" class="main-logo">
+                            <img src="/images/logo.jpg" style="height: 82px !important; width: 236px !important; margin-top: 0px;" alt="Soft link" />
+                        </a>
+                    </div>
+                    <!-- NAVIGATION -->
+                    <div class="top-block-nav">
+                        <nav class="navbar navbar-inverse" role="navigation">
+                            <div class="navbar-header">
+                                <button type="button" id="btn-mobile-menu" class="navbar-toggle" onclick="document.location.href='/mobile.aspx'" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+
+                            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                                <ul class="nav navbar-nav">
+                                    <li><a href="/aboutus/AboutUs.aspx">About Us</a></li>
+                                    <li><span class="nav-seperator">|</span></li>
+                                   <!-- <li><a href="/solutions/solution.aspx">Solutions</a></li>
+                                    <li><span class="nav-seperator">|</span></li>-->
+                                    <li class="has-submenu" data-toggle="#product-submenu"><a href="#">Products</a></li>
+                                    <li><span class="nav-seperator">|</span></li>
+                                    <li><a href="/service/service.aspx">Services</a></li>
+                                    <li><span class="nav-seperator">|</span></li>
+                                    <li><a href="/supports/support.aspx">Support</a></li>
+                                    <li><span class="nav-seperator">|</span></li>
+                                    <li><a href="/industriesserve/industriesserve.aspx">Industries We Serve</a></li>
+                                    <li><span class="nav-seperator">|</span></li>
+                                    <li><a href="/ourclients/ourclients.aspx">Our Clients</a></li>
+                                    <li><span class="nav-seperator">|</span></li>
+                                    <li><a href="/resources/resources.aspx">Resources</a></li>
+                                    <li><span class="nav-seperator">|</span></li>
+                                    <li><a href="/newsroom/newsroom.aspx">Newsroom</a></li>
+                                    <li><span class="nav-seperator">|</span></li>
+                                    <li><a href="/contactus/contactus.aspx">Contact Us</a></li>
+
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 top-block-right">
+                    <div class="top-block-freedemo">
+                        <a href="/enquiry.aspx" class="freedemo">
+                            <div>
+                                <span class="bolder">FREE DEMO</span>
+                                <span class="normal">Try it then buy it</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="top-block-login">
+                        <a href="#" id="cust-login-div" class="cust-login">
+                            <div>
+                                <asp:Label ID="lblUserWelcome" CssClass="normal" runat="server" />
+                            </div>
+                        </a>
+                        <div id="cust-login-container" class="cust-login-container">
+                            <div class="row">
+                                <asp:Panel ID="pnlGuestUserSection" runat="server" CssClass="col-lg-12 guest-in-container" style="padding-top: 10px;">
+                                    <div class="col-lg-8">
+                                        <input type="text" class="form-control cust-login-input" id="username" name="username" placeholder="Username">
+                                        <input type="password" class="form-control cust-login-input" id="password" name="password" placeholder="Password">
+                                    </div>
+                                    <div class="col-lg-4" style="padding-right: 6px; padding-left: 0px;">
+                                        <button type="submit" onclick="return SubmitForm('login');" class="btn btn-default cust-login-btn">Submit</button>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <div class="col-lg-12">
+                                        <a href="/login/registration.aspx">Register Here </a> | <a href="/login/forgotpassword.aspx">Forgot Password</a>
+                                    </div>
+                                </asp:Panel>
+                                <asp:Panel ID="pnlLoggedUserSection" runat="server" CssClass="col-lg-12" style="padding-top: 10px;">
+                                    <div class="col-lg-12 logged-in-container">
+                                        <a href="/login/editprofile.aspx">Edit Profile</a>
+                                        <a href="/logout.aspx">Logout</a>
+                                    </div>
+                                </asp:Panel>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="position: relative;">
+                <div id="solution-submenu" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 submenu">
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                         <div class="submenu-item">
+                            <a href="/solutions/solution.aspx" >Solution Overview</a>
+                        </div>
+                        
+                        <div class="submenu-item">
+                            <a href="/solutions/salesandservice.aspx" >Sales & Service</a>
+                        </div>
+                        <div class="submenu-item">
+                            <a href="/solutions/freightforwarding.aspx">Freight Forwarding</a>
+                        </div>
+                        <div class="submenu-item">
+                            <a href="/solutions/transportmanagement.aspx">Transport Management</a>
+                        </div>
+                        <div class="submenu-item">
+                            <a href="/solutions/warehousemanagement.aspx">Warehouse management</a>
+                        </div>
+                        <div class="submenu-item">
+                            <a href="/solutions/containermanagement.aspx">Container Management</a>
+                        </div>
+                        <div class="submenu-item">
+                            <a href="/solutions/purchaseordermanagement.aspx">Purchase Order Management</a>
+                        </div>
+                        <div class="submenu-item">
+                            <a href="/solutions/custommanagement.aspx">Custom Management</a>
+                        </div>
+                         <div class="submenu-item">
+                            <a href="/solutions/financialmanagement.aspx">Financial Management</a>
+                        </div>
+                        </div>
+                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                         <div class="submenu-item">
+                            <a href="/solutions/billingmanagement.aspx">Billing Management</a>
+                        </div>
+                         <div class="submenu-item">
+                            <a href="/solutions/exportmanagement.aspx">Export Management</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="product-submenu" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 submenu">
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 submenu-wrapper" style="margin-left: 50px;">
+                        <h1 class="header">
+                            <a href="/products/logiSys.aspx" >Logi-Sys – Cloud ERP Platform for Logistics Industry</a>
+                        </h1>
+                        <div class="item-wrapper">
+                            <div class="item-element">
+                                <span><a href="/products/logiSys.aspx">Freight Forwarding</a></span>
+                            </div>
+                            <div class="item-element">
+                                <span><a href="/products/logiSys.aspx">Sales & Service (CRM)</a></span>
+                            </div>
+                            <div class="item-element">
+                                <span><a href="/products/logiSys.aspx">Inland Transport</a></span>
+                            </div>
+                            <div class="item-element">
+                                <span><a href="/products/logiSys.aspx">Purchase Order</a></span>
+                            </div>
+                            <div class="item-element">
+                                <span><a href="/products/logiSys.aspx">Warehousing</a></span>
+                            </div>
+                            <div class="item-element">
+                                <span><a href="/products/logiSys.aspx">Customer Billing</a></span>
+                            </div>
+                            <div class="item-element">
+                                <span><a href="/products/logiSys.aspx">Container Management</a></span>
+                            </div>
+                            <div class="item-element">
+                                <span><a href="/products/logiSys.aspx">Financial Accounting</a></span>
+                            </div>
+                            <div class="item-element">
+                                <span><a href="/products/logiSys.aspx">Customs & Regulatory</a></span>
+                            </div>
+                            <div class="item-element">
+                                <span><a href="/products/logiSys.aspx">Customer Visibility</a></span>
+                            </div>
+                            <div class="item-element">
+                                <span><a href="/products/logiSys.aspx">Business Reporting</a></span>
+                            </div>
+                            <div class="item-element">
+                                <span>&nbsp;</span>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <h1 class="header" style="margin-top: 8px;">
+                            <a href="#">Desktop Platforms</a>
+                        </h1>
+                        <div class="item-wrapper">
+                            <div class="item-element" style="width: 100%;">
+                                <span><a href="/products/visualsamudra.aspx">Visual Samudara (Sea Freight Forwarding)</a></span>
+                            </div>
+                            <div class="item-element" style="width: 100%;">
+                                <span><a href="/products/visualakash.aspx">Visual Akash (Air Freight Forwarding)</a></span>
+                            </div>
+                            <div class="item-element" style="width: 100%;">
+                                <span><a href="/products/visualaccounts.aspx">Visual Accounts (Financial Accounting)</a></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 submenu-wrapper">
+                        <h1 class="header">
+                            <a href="/products/Trade-Sys.aspx" >Trade-Sys – Trade Management for Shippers</a>
+                        </h1>
+                        <div class="item-wrapper">
+                            <div class="item-element">
+                                <span><a href="/products/Trade-Sys.aspx">Export Management</a></span>
+                            </div>
+                            <div class="item-element">
+                                <span><a href="/products/Trade-Sys.aspx">License Management</a></span>
+                            </div>
+                            <div class="item-element">
+                                <span><a href="/products/Trade-Sys.aspx">Import Management</a></span>
+                            </div>
+                            <div class="item-element">
+                                <span><a href="/products/Trade-Sys.aspx">Electronic Data Interchange</a></span>
+                            </div>
+                            <div class="item-element">
+                                <span><a href="/products/Trade-Sys.aspx">Logistics Management</a></span>
+                            </div>
+                            <div class="item-element">
+                                <span><a href="/products/Trade-Sys.aspx">Business Reporting</a></span>
+                            </div>
+                            <div class="item-element">
+                                <span><a href="/products/Trade-Sys.aspx">Regulatory Compliance</a></span>
+                            </div>
+                            <div class="item-element">
+                                <span><a href="/products/Trade-Sys.aspx">Customer Visibility</a></span>
+                            </div>
+                            <div class="item-element">
+                                <span><a href="/products/Trade-Sys.aspx">Procurement</a></span>
+                            </div>
+                            <div class="item-element">
+                                <span>&nbsp;</span>
+                            </div>
+                            <div class="item-element">
+                                <span>&nbsp;</span>
+                            </div>
+                            <div class="item-element">
+                                <span>&nbsp;</span>
+                            </div>  
+                        </div>
+                        <div class="clearfix"></div>
+                        <h1 class="header" style="margin-top: 8px;">
+                            <a href="#">Desktop Platforms</a>
+                        </h1>
+                        <div class="item-wrapper">
+                            <div class="item-element" style="width: 100%;">
+                                <span><a href="/products/visualxport.aspx">Visual Exports ( Export Management )</a></span>
+                            </div>
+                            <div class="item-element" style="width: 100%;">
+                                <span><a href="/industriesserve/importers.aspx">Visual Imports ( Import Management )</a></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 submenu-wrapper">
+                        <h1 class="header">
+                            <a href="/products/visualimpex.aspx">Impex – India Customs</a>
+                        </h1>
+                        <div class="item-wrapper">
+                            <div class="item-element">
+                                <span><a href="#">Live Impex</a></span>
+                            </div>
+                            <div class="item-element">
+                                <span><a href="/products/visualimpex.aspx">Visual Impex</a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="industry-submenu" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 submenu">
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                         <div class="submenu-item">
+                            <a href="/industriesserve/industriesserve.aspx">Industry Overview</a>
+                        </div>
+                        <div class="submenu-item">
+                            <a href="/industriesserve/exporters.aspx">Exporters</a>
+                        </div>
+                        <div class="submenu-item">
+                            <a href="/industriesserve/importers.aspx">Importers</a>
+                        </div>
+                        <div class="submenu-item">
+                            <a href="/industriesserve/chas.aspx">Custom House Agents/ Customs Brokers</a>
+                        </div>
+                        <div class="submenu-item">
+                            <a href="/industriesserve/freightforwarderstindustry.aspx">Freight Forwarders</a>
+                        </div>
+                        <div class="submenu-item">
+                            <a href="/industriesserve/novccs.aspx">NVOCCs</a>
+                        </div>
+                        <div class="submenu-item">
+                            <a href="/industriesserve/3PLcompanies.aspx">3PL Companies</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <!-- TOP HEADER ENDS -->
+
+        <!-- CONTENT STARTS -->
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        <!-- CONTENT ENDS -->
+
+        <%--<div class="block-seperator-gray"></div>--%>
+        <div style="background: #454545">
+        <div class="container content-block-6">
+            <div class="row" style="margin: 5px 0px 5px 0px;">
+                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                    <div class="footer-media-part">
+                        <ul class="social">
+                            <li class="go-social">Go Social</li>
+                            <li class="blogger">
+                                <a href="http://blog.softlinkglobal.com/" target="_blank">Blogger</a>
+                            </li>
+                            <li class="facebook">
+                                <a href="https://www.facebook.com/pages/Softlink/137478072949150" target="_blank">Facebook</a>
+                            </li>
+                            <li class="twitter">
+                                <a href="https://twitter.com/softlinkglobal" target="_blank">Twitter</a>
+                            </li>
+                            <li class="linkedin">
+                                <a href="https://www.linkedin.com/company/softlink-global-pvt-ltd" target="_blank">Linkedin</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+                    <h1 style="font-size: 28px; color: #FFF; margin-bottom: 15px;">Sitemap</h1>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                    <div class="map-right-item">
+                        <h1>
+                            <a href="/aboutus/AboutUs.aspx">About Us</a>
+                        </h1>
+                    </div>
+                    <div class="map-right-item">
+                        <h1>
+                            <a href="/products/products.aspx">Products</a>
+                        </h1>
+                        <ul>
+                            <li>
+                                <a href="/products/visualakash.aspx">Visual Akash</a>
+                            </li>
+                            <li>
+                                <a href="/products/visualsamudra.aspx">Visual Samudra</a>
+                            </li>
+                            <li>
+                                <a href="/products/visualimpex.aspx">Visual IMPEX</a>
+                            </li>
+                            <li>
+                                <a href="/products/visualxport.aspx">Visual X-Port</a>
+                            </li>
+                            <li>
+                                <a href="/products/visualaccounts.aspx">Visual Accounts</a>
+                            </li>
+                            <li>
+                                <a href="/products/logiSys.aspx">Logi-Sys</a>
+                            </li>
+                            <li>
+                                <a href="/products/xponent.aspx">X-Ponent</a>
+                            </li>
+                            <li>
+                                    <a href="/products/trackyourcargo.aspx">TrackYourCargo</a>
+                            </li>
+                            <li>
+                                    <a href="/products/Trade-Sys.aspx">Trade-Sys</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                    <div class="map-right-item">
+                        <h1>
+                            <a href="/service/service.aspx">Service</a>
+                        </h1>
+                    </div>
+                    <div class="map-right-item">
+                        <h1>
+                            <a href="/supports/support.aspx">Support</a>
+                        </h1>
+                    </div>
+                    <div class="map-right-item">
+                        <h1>
+                            <a href="/industriesserve/industriesserve.aspx">Industries We Serve</a>
+                        </h1>
+                        <ul>
+                            <li>
+                                <a href="/industriesserve/exporters.aspx">Exporters</a>
+                            </li>
+                            <li>
+                                <a href="/industriesserve/importers.aspx">Importers</a>
+                            </li>
+                            <li>
+                                <a href="/industriesserve/chas.aspx">Custom House Agents/ Customs Brokers</a>
+                            </li>
+                            <li>
+                                <a href="/industriesserve/freightforwarderstindustry.aspx">Freight Forwarders</a>
+                            </li>
+                            <li>
+                                <a href="/industriesserve/novccs.aspx">NVOCCs</a>
+                            </li>
+                            <li>
+                                <a href="/industriesserve/3PLcompanies.aspx">3PL Companies</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                    <div class="map-right-item">
+                        <h1>
+                            <a href="/ourclients/ourclients.aspx">Our Clients</a>
+                        </h1>
+                    </div>
+                    <div class="map-right-item">
+                        <h1>
+                            <a href="/resources/resources.aspx">Resources</a>
+                        </h1>
+                    </div>
+                    <div class="map-right-item">
+                        <h1>
+                            <a href="/newsroom/newsroom.aspx">Newsroom</a>
+                        </h1>
+                    </div>
+                                
+                    <div class="map-right-item">
+                        <h1>
+                            <a href="/enquiry.aspx">Enquiry</a>
+                        </h1>
+                    </div>
+                    <div class="map-right-item">
+                        <h1>
+                            <a href="#">Careers</a>
+                        </h1>
+                    </div>
+                    <div class="map-right-item">
+                        <h1>
+                            <a href="/contactus/contactus.aspx">Contact Us</a>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!-- FOOTER STARTS -->
+        <div class="container content-block-1">
+            <div class="row footer-block-2">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 pull-right footer-link-part">
+                    <ul class="sitemap">
+                        <li class="sitemap-item">
+                            <a href="/index.aspx">Home</a>
+                        </li>
+                        <li>
+                            <span class="link-seperator">|</span>
+                        </li>
+                        <li class="sitemap-item">
+                            <a href="#">Careers</a>
+                        </li>
+                        <li>
+                            <span class="link-seperator">|</span>
+                        </li>
+                        <li class="sitemap-item">
+                            <a href="/enquiry.aspx">Enquiry</a>
+                        </li>
+                        <li>
+                            <span class="link-seperator">|</span>
+                        </li>
+                        <li class="sitemap-item">
+                            <a href="/sitemap.aspx">Sitemap</a>
+                        </li>
+			            <!--<li>
+                            <span class="link-seperator">|</span>
+                        </li>                      
+                        <li class="sitemap-item">
+                            <a href="/contactus/contactus.aspx">Contact Us</a>
+                        </li>-->
+                    </ul> 
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 footer-copy-part">
+                    <div class="copyright">
+                        &copy; (1992-2013) by Softlink Global Pvt. Ltd. All rights reserved.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FOOTER STARTS -->
+    </div>
+    </form>
+
+    <!-- JAVASCRIPTS -->
+    <script type="text/javascript" src="/scripts/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="/scripts/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/scripts/application.js"></script>
+    <asp:ContentPlaceHolder id="footer" runat="server">
+    </asp:ContentPlaceHolder>
+</body>
+</html>
