@@ -11,7 +11,7 @@ public class Utility
 {
     public const string EMAIL_HOST = "relay-hosting.secureserver.net";  //
     public const int EMAIL_PORT = 25;                                   //
-    public const string EMAIL_USERNAME = "sunil.g@kwebmaker.com";       //
+    public const string EMAIL_USERNAME = "sunil@domail.com";       //
     public const string EMAIL_PASSWORD = "sunil123";                    //
     public const string EMAIL_DISPLAY_NAME = "SOFTLINK";                //
 
