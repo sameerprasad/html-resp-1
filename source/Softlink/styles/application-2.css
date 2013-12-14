@@ -305,7 +305,7 @@ a.main-logo img
     /*background: #838381 url('../images/img-3.png') repeat-x;*/
     background: #FFF;
     /*margin-top: 134px;*/
-    top: 0px;
+    top: 1px;
     left: 0px;
     position: absolute;
     
@@ -911,12 +911,12 @@ a.main-logo img
 
 .map-right-item
 {
-    margin-bottom: 20px;
+    
 }
 
 .map-right-item h1
 {
-    margin: 0px;
+    margin: 0px 0px 16px 0px;
     padding: 0px;
     color: #fff;
     font-size: 20px;
@@ -937,11 +937,11 @@ a.main-logo img
 
 .map-right-item li
 {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     display: block;
-    padding-left: 14px;
+    /*padding-left: 14px;
     background: url('../images/bullet-box.png') no-repeat;
-    background-position: left 6px;
+    background-position: left 6px;*/
 }
 
 .map-right-item li a
@@ -949,9 +949,9 @@ a.main-logo img
     color: #fff;
 }
 
-.map-right-item li a:hover {
+/*.map-right-item li a:hover {
     text-decoration: underline;
-}
+}*/
 
 /**********************************************************************/
 .content-block-free-demo {
@@ -1068,21 +1068,22 @@ a.main-logo img
 }
 
 .footer-media-part ul.social li a {
+    font-size: 20px;
     display: block;
     height: 40px;
     width: 160px;
     overflow: hidden;
-    margin-left: 35px;
+    margin-left: 0px;
     text-align: left;
     color: #FFF;
     padding-left: 52px;
-    padding-top: 10px;
+    padding-top: 5px;
     text-decoration: none;
 }
 
-.footer-media-part ul.social li a:hover {
+/*.footer-media-part ul.social li a:hover {
     text-decoration: underline;
-}
+}*/
 
 ul.social .linkedin a {
     background: url('../images/linkedin.png') no-repeat;
@@ -1106,7 +1107,8 @@ ul.social .go-social {
     line-height: 40px;
     color: #fff;
     text-align: left;
-    margin-left: 35px;
+    margin-left: 0px;
+    display: block !important;
 }
 
 .footer-copy-part {
@@ -1399,6 +1401,41 @@ ul.sitemap .sitemap-item a:hover {
     padding-left: 5px;
 }
 
+.site-map-address {
+    color: #fff;
+    margin-top: 20px;
+}
+
+.site-map-address h1 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 30px;
+}
+
+.site-map-address h2 {
+    margin: 10px 0px 10px 0px;
+    padding: 0px;
+    font-size: 22px;
+}
+
+.site-map-address p {
+    line-height: 24px;
+}
+
+.site-map-address a {
+    color: #FFF;
+}
+
+.top-item-margin {
+    margin-top: 24px;
+}
+
+.footer-sitemap {
+    margin-top: 20px;
+    color: #fff;
+    font-size: 30px;
+}
+
 /***** TAB LEFT ******/
 .tabs-below > .nav-tabs,
 .tabs-right > .nav-tabs,
@@ -1512,14 +1549,14 @@ ul.sitemap .sitemap-item a:hover {
 {
     #wrapper
     {
-        padding-top: 134px;
+        /*padding-top: 134px;*/
     }
     
     .top-block
     {
-        position: fixed;
+        /*position: fixed;
         z-index: 100;
-        top: 0;
+        top: 0;*/
     }
 
     .nav-seperator
@@ -1534,6 +1571,10 @@ ul.sitemap .sitemap-item a:hover {
         margin: 5px 5px 10px 5px;
         height: 77px;
     }
+
+    .footer-sitemap {
+        margin-top: 140px;
+    }
 }
 
 /* MONITOR */
@@ -1547,6 +1588,10 @@ ul.sitemap .sitemap-item a:hover {
         /*margin-top: 134px;*/
         /*top: 268px;*/
         left: 0px;
+    }
+
+    .footer-sitemap {
+        margin-top: 140px;
     }
 }
 

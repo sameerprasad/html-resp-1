@@ -6,8 +6,8 @@
     <title>Softlink</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
-    <link href="/bootstrap/css/bootstrap-2.min.css" rel="stylesheet" media="screen" />
+    <link href="/styles/fonts.css" rel="stylesheet" media="screen" />
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen" />
     <link href="/styles/application-2.css?v=1" rel="stylesheet" media="screen" />
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -55,13 +55,13 @@
                                     <li><span class="nav-seperator">|</span></li>
                                     <li><a href="/supports/support.aspx">Support</a></li>
                                     <li><span class="nav-seperator">|</span></li>
-                                    <li><a href="/industriesserve/industriesserve.aspx">Industries We Serve</a></li>
-                                    <li><span class="nav-seperator">|</span></li>
                                     <li><a href="/ourclients/ourclients.aspx">Our Clients</a></li>
                                     <li><span class="nav-seperator">|</span></li>
                                     <li><a href="/resources/resources.aspx">Resources</a></li>
                                     <li><span class="nav-seperator">|</span></li>
                                     <li><a href="/newsroom/newsroom.aspx">Newsroom</a></li>
+                                    <li><span class="nav-seperator">|</span></li>
+                                    <li><a href="/newsroom/newsroom.aspx">Partners</a></li>
                                     <li><span class="nav-seperator">|</span></li>
                                     <li><a href="/contactus/contactus.aspx">Contact Us</a></li>
 
@@ -342,11 +342,11 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
-                    <h1 style="font-size: 28px; color: #FFF; margin-bottom: 15px;">Sitemap</h1>
+                <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                    <div class="footer-sitemap">Sitemap</div>
                 </div>
-                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                    <div class="map-right-item">
+                <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                    <div class="map-right-item top-item-margin">
                         <h1>
                             <a href="/aboutus/AboutUs.aspx">About Us</a>
                         </h1>
@@ -386,8 +386,8 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                    <div class="map-right-item">
+                <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                    <div class="map-right-item top-item-margin">
                         <h1>
                             <a href="/service/service.aspx">Service</a>
                         </h1>
@@ -397,33 +397,6 @@
                             <a href="/supports/support.aspx">Support</a>
                         </h1>
                     </div>
-                    <div class="map-right-item">
-                        <h1>
-                            <a href="/industriesserve/industriesserve.aspx">Industries We Serve</a>
-                        </h1>
-                        <ul>
-                            <li>
-                                <a href="/industriesserve/exporters.aspx">Exporters</a>
-                            </li>
-                            <li>
-                                <a href="/industriesserve/importers.aspx">Importers</a>
-                            </li>
-                            <li>
-                                <a href="/industriesserve/chas.aspx">Custom House Agents/ Customs Brokers</a>
-                            </li>
-                            <li>
-                                <a href="/industriesserve/freightforwarderstindustry.aspx">Freight Forwarders</a>
-                            </li>
-                            <li>
-                                <a href="/industriesserve/novccs.aspx">NVOCCs</a>
-                            </li>
-                            <li>
-                                <a href="/industriesserve/3PLcompanies.aspx">3PL Companies</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                     <div class="map-right-item">
                         <h1>
                             <a href="/ourclients/ourclients.aspx">Our Clients</a>
@@ -439,21 +412,30 @@
                             <a href="/newsroom/newsroom.aspx">Newsroom</a>
                         </h1>
                     </div>
-                                
                     <div class="map-right-item">
                         <h1>
-                            <a href="/enquiry.aspx">Enquiry</a>
-                        </h1>
-                    </div>
-                    <div class="map-right-item">
-                        <h1>
-                            <a href="#">Careers</a>
+                            <a href="ourclients/ourclients.aspx">Partners</a>
                         </h1>
                     </div>
                     <div class="map-right-item">
                         <h1>
                             <a href="/contactus/contactus.aspx">Contact Us</a>
                         </h1>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                    <div class="site-map-address">
+                        <h1>India</h1>
+                        <h2>Softlink Global Pvt. Ltd.</h2>
+                        <p>
+                            606-607, Wellington Bussiness Park I,<br />
+                            Near Mittal Industrial Estate,<br />
+                            Andheri - Kurla Road, Marol,<br />
+                            Andheri (East), Mumbai - 400 059,<br />
+                            Maharashtra, India.<br />
+                            Ph.: <a href="tel:+912240340000">+91-22-4034 0000</a> <br />
+                            Mail: <a href="mailto:info@softlinkglobal.com">info@softlinkglobal.com</a>
+                        </p>
                     </div>
                 </div>
             </div>
