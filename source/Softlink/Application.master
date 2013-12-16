@@ -14,6 +14,7 @@
     <!--[if lt IE 9]>
         <script src="/scripts/html5shiv.js"></script>
         <script src="/scripts/respond.min.js"></script>
+        <link href="/styles/ie-fix.css?v=1" rel="stylesheet" />
     <![endif]-->
     <asp:ContentPlaceHolder id="head" runat="server">
     </asp:ContentPlaceHolder>

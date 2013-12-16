@@ -1,0 +1,11 @@
+﻿#wrapper
+{
+    padding-top: 0 !important;
+}
+    
+.top-block
+{
+    position: static !important;
+    z-index: auto !important;
+    top: 0 !important;
+}

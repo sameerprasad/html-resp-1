@@ -10,7 +10,7 @@ public partial class AboutUs : System.Web.UI.Page
     {
         if (!IsPostBack)
         {
-            BindSuccessStories();
+            //BindSuccessStories();
         }
     }
 
@@ -18,8 +18,8 @@ public partial class AboutUs : System.Web.UI.Page
     {
         try
         {
-            rptSuccessStories.DataSource = utility.GetData("select * from SuccessStories");
-            rptSuccessStories.DataBind();
+            //rptSuccessStories.DataSource = utility.GetData("select * from SuccessStories");
+            //rptSuccessStories.DataBind();
         }
         catch (Exception ex)
         {
