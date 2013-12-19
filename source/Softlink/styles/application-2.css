@@ -215,6 +215,12 @@ a.main-logo img
     margin-bottom: 20px;
 }
 
+.main-content .blue-highlight {
+    color: #0089E1;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
 .c-img {
     float: right;
 }
@@ -392,6 +398,42 @@ a.main-logo img
     margin-left: auto;
     margin-right: 0;
 }
+
+/* Live Inpex */
+.live-impex-box {
+    margin-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: solid 1px #0089E1;
+}
+
+.live-impex-box .pr-img {
+    
+}
+
+.live-impex-box h1 {
+    margin: 0;
+    padding: 0;
+    color: #605D5C;
+    line-height: 34px;
+    font-size: 28px;
+}
+
+.live-impex-box h2 {
+    margin: 0;
+    padding: 0;
+    color: #828180;
+    line-height: 34px;
+    font-size: 18px;
+}
+
+.live-impex-box p {
+    color: #828180;
+    line-height: 34px;
+    font-size: 16px;
+}
+
+.live-impex
+/* Live Inpex Ends */
 
 .sub-content {
     padding-top: 20px;
@@ -2253,5 +2295,10 @@ ul.sitemap .sitemap-item a:hover {
     .caroufredsel_wrapper {
         width: auto !important;
         margin-left: 0px !important;
+    }
+
+    .live-impex-box .pr-img {
+        margin-left: auto;
+        margin-right: auto;
     }
 }
