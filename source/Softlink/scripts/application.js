@@ -71,45 +71,91 @@ $(document).ready(function () {
 
 function initIndexFunctions() {
     $(document).ready(function () {
+        var $list_1 = $(".content-block-1 .left-item-list");
+        var $list_items_1 = $(".content-block-1 .right-item-details");
+        var $list_items_1_def = $(".content-block-1 .item-def");
+
+        var $list_2 = $(".content-block-2 .left-item-list");
+        var $list_items_2 = $(".content-block-2 .right-item-details");
+        var $list_items_2_def = $(".content-block-2 .item-def");
+
+        $list_1.on("mouseenter", "a", function (e) {
+            var $active = $(this);
+            var target = $active.attr("href");
+            $list_items_1.hide();
+            $(target).show();
+            $active.addClass("active");
+        });
+        $list_1.on("mouseleave", "a", function (e) {
+            reset_list_1();
+        });
+
+        function reset_list_1() {
+            $list_1.find("a").removeClass("active");
+            $list_items_1.hide();
+            $list_items_1_def.show();
+        }
+
+        $list_2.on("mouseenter", "a", function (e) {
+            var $active = $(this);
+            var target = $active.attr("href");
+            $list_items_2.hide();
+            $(target).show();
+            $active.addClass("active");
+        });
+        $list_2.on("mouseleave", "a", function (e) {
+            reset_list_2();
+        });
+
+        function reset_list_2() {
+            $list_2.find("a").removeClass("active");
+            $list_items_2.hide();
+            $list_items_2_def.show();
+        }
+
+        $(".left-item-list").on("click", "a", function (e) {
+            e.preventDefault();
+        });
+
         // LOGI SYS
-        var $active = $(".content-block-1 .content-block-sol-left .left-item-list .active");
-        var target = $active.attr("href");
-        $(target).show();
+        //var $active = $(".content-block-1 .content-block-sol-left .left-item-list .active");
+        //var target = $active.attr("href");
+        //$(target).show();
 
-        var $anchors = $(".content-block-1 .content-block-sol-left .left-item-list a");
-        var $items = $(".content-block-1 .content-block-sol-right .right-item-details");
-        $anchors.hover(function () {
-            $anchors.removeClass("active");
-            var t = $(this).addClass("active").attr("href");
-            $items.hide();
-            $(t).show();
-        }, function () {
+        //var $anchors = $(".content-block-1 .content-block-sol-left .left-item-list a");
+        //var $items = $(".content-block-1 .content-block-sol-right .right-item-details");
+        //$anchors.hover(function () {
+        //    $anchors.removeClass("active");
+        //    var t = $(this).addClass("active").attr("href");
+        //    $items.hide();
+        //    $(t).show();
+        //}, function () {
 
-        });
+        //});
 
-        $anchors.click(function (event) {
-            event.preventDefault();
-        });
+        //$anchors.click(function (event) {
+        //    event.preventDefault();
+        //});
 
         // TRADE SYS
-        var $active1 = $(".content-block-2 .content-block-sol-left .left-item-list .active");
-        var target1 = $active1.attr("href");
-        $(target1).show();
+        //var $active1 = $(".content-block-2 .content-block-sol-left .left-item-list .active");
+        //var target1 = $active1.attr("href");
+        //$(target1).show();
 
-        var $anchors1 = $(".content-block-2 .content-block-sol-left .left-item-list a");
-        var $items1 = $(".content-block-2 .content-block-sol-right .right-item-details");
-        $anchors1.hover(function () {
-            $anchors1.removeClass("active");
-            var t1 = $(this).addClass("active").attr("href");
-            $items1.hide();
-            $(t1).show();
-        }, function () {
+        //var $anchors1 = $(".content-block-2 .content-block-sol-left .left-item-list a");
+        //var $items1 = $(".content-block-2 .content-block-sol-right .right-item-details");
+        //$anchors1.hover(function () {
+        //    $anchors1.removeClass("active");
+        //    var t1 = $(this).addClass("active").attr("href");
+        //    $items1.hide();
+        //    $(t1).show();
+        //}, function () {
 
-        });
+        //});
 
-        $anchors1.click(function (event) {
-            event.preventDefault();
-        });
+        //$anchors1.click(function (event) {
+        //    event.preventDefault();
+        //});
 
         // PRODUCTS
         //var $activeP = $(".content-block-prod-left .left-item-list .active");
@@ -133,7 +179,7 @@ function initIndexFunctions() {
 
         // NEWS
         $('#new-ticker').vTicker({
-            showItems: 4
+            showItems: 3
         });
     });
 }

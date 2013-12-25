@@ -5,12 +5,11 @@
 <head>
     <title>Softlink</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap -->
+    
     <link href="/styles/fonts.css" rel="stylesheet" media="screen" />
     <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen" />
     <link href="/styles/application-2.css?v=1" rel="stylesheet" media="screen" />
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
         <script src="/scripts/html5shiv.js"></script>
         <script src="/scripts/respond.min.js"></script>
@@ -25,7 +24,7 @@
         <!-- TOP HEADER STARTS -->
         <div class="container top-block">
             <div class="row">
-                <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12 top-block-left">
+                <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 top-block-left">
                     <div class="top-block-logo">
                         <!-- LOGO -->
                         <a href="/index.aspx" class="main-logo">
@@ -72,7 +71,7 @@
                     </div>
                 </div>
                 
-                <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 top-block-right">
+                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 top-block-right">
                     <div class="top-block-freedemo">
                         <a href="/enquiry.aspx" class="freedemo">
                             <div>
@@ -483,9 +482,18 @@
                 </div>
             </div>
         </div>
-        <!-- FOOTER STARTS -->
+        <!-- FOOTER ENDS -->
     </div>
     </form>
+
+    <!-- DEBUG -->
+    <div id="debug">
+        <span class="mobile">Mobile</span>
+        <span class="tablets">Tablets</span>
+        <span class="desktops">Desktops</span>
+        <span class="large-desktops">Large desktops</span>
+    </div>
+    <!-- /DEBUG -->
 
     <!-- JAVASCRIPTS -->
     <script type="text/javascript" src="/scripts/jquery-1.8.3.min.js"></script>

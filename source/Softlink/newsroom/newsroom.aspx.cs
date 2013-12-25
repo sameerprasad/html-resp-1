@@ -21,14 +21,14 @@ public partial class newsroom : System.Web.UI.Page
     {
         try
         {
-            NewsEventsDetails.DataSource = utility.GetData("select * from NewsEvents");
-            NewsEventsDetails.DataBind();
+            //NewsEventsDetails.DataSource = utility.GetData("select * from NewsEvents");
+            //NewsEventsDetails.DataBind();
 
-            PressReleaseDetails.DataSource = utility.GetData("select * from News");
-            PressReleaseDetails.DataBind();
+            //PressReleaseDetails.DataSource = utility.GetData("select * from News");
+            //PressReleaseDetails.DataBind();
 
-            MediaClippingDetails.DataSource = utility.GetData("select * from News");
-            MediaClippingDetails.DataBind();
+            //MediaClippingDetails.DataSource = utility.GetData("select * from News");
+            //MediaClippingDetails.DataBind();
         }
         catch (Exception ex)
         {
