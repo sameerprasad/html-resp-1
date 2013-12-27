@@ -482,7 +482,6 @@
 
             $(window).resize(function () {
                 window_size = $(window).width();
-                console.log($(window).width() < 751 ? "Mobile" : "");
                 clearTimeout(resize_timer);
                 if (window_size > 750) {
                     resize_timer = setTimeout(onBigScreen, 500);

@@ -2682,3 +2682,16 @@ ul.sitemap .sitemap-item a:hover {
         margin-bottom: 0 !important;
     }
 }
+
+/* MOBILE */
+@media screen and (max-width: 265px) {
+    .content-block-client-right {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #clients-thumbs {
+        width: 95%;
+        margin-left: 2%;
+    }
+}
