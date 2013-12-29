@@ -1,361 +1,196 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Application.master" AutoEventWireup="true" CodeFile="logiSys.aspx.cs" Inherits="logiSys" %>
 <%@ Register src="product-list.ascx" tagname="product" tagprefix="uc1" %>
+<%@ Register src="request-demo.ascx" tagname="demo" tagprefix="uc2" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
-    <div class="container slider-container">
+    <div class="container banner-container">
         <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 main-slider">
-                  <img src="/images/sliders/Logi_Sis_Cover.png" class="carousel-img-item" alt="Product" width="100%" />
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 main-banner">
+                <img src="/images/sliders/logi-sys.png" width="100%" />
             </div>
         </div>
     </div>
-
-    <div class="container content-container">
-    <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 main-slider">
-                
-                <ul id="myTab" class="nav nav-tabs">
-                    <li class="active"><a href="#home" data-toggle="tab">Product Overview</a></li>
-                    <li><a href="#feature" data-toggle="tab">Features</a></li>
-                    <li><a href="#Benefits" data-toggle="tab">Benefits</a></li>
-                    <li><a href="/PDF/Logi-Sys.pdf" target="_blank">DownLoad Broucher</a></li>
-                    <li><a href="/resources/resources.aspx" >Case Study</a></li>
-                    <li><a href="#enquiry" data-toggle="tab">Enquiry</a></li>
-                </ul>
-                <div id="myTabContent" class="tab-content">
-                    <div class="tab-pane fade in active" id="home">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <div class="col-lg-4">
-                                <img src="/images/Logisys_Monitor.jpg" height="320" width="333" style="margin: 10px auto;
-                                    display: block;" />
-                            </div>
-                            <div class="col-lg-8">
-                                <br />
-                                <p>
-                                    Logi-Sys is a web based, comprehensive, modular, enterprise level application that combines all the operations & functions of a Logistics Service Provider (LSP) into one integrated system. Logi-Sys provides Freight Forwarding, Documentations, Consolidation, Track & Trace, Supply Chain Integration, Warehouse Management, Container Management, Customer Relationship Management (CRM), Billing & Financial Accounts, Purchase Order Management, Customs Broking (Clearing), Alerts & Notification, Integration with corporate website and much more. Developed in over 200 man years Logi-Sys is most exhaustive and extensive system available for Logistics Service Provider.
-                                </p>
-                                <p>
-                                    The different modules of the system use one unified database to serve a wide range of business functions, so that the various departments can easily access and share information, and communicate with each other. Logi-Sys is Modular, Scalable and Extensible application which improves productivity and control within the organization, and enables effective decision making and profitable business growth. 
-                                </p>
-                              
-                               
-                            </div>
-                            <div class="clearfix">
-                            </div>
-                            <hr />
-                            <div class="row" >
-                                <div class="col-lg-3">
-                                    <img src="/images/Freight Forwarding.png" height="150" width="200" style="margin: 10px auto; display: block;" />
-                                </div>
-                                <div class="col-lg-9">
-                                    <br />
-                                    <p><b>Freight Forwarding Operations :</b></p>
-                                    <p>Logi-sys allows you to manage entire freight forwarding operations without using heaps of paper. All your documents from AWB, HAWB, BL, HBL, Manifest, Cargo Arrival Notices, Deliver Orders, etc. are created digitally. This eliminates the possibility of misplacements and confusions since everything can be accessed and confirmed with a few clicks.</p>
-                                </div>
-                                <div class="clearfix">
-                                </div>
-                                <hr />
-                                <div class="col-lg-9">
-                                    <br />
-                                    <p><b>Sales & Services(CRM) :</b></p>
-                                    <p>CRM module ensures that all the communications with an customers are tracked, aiding better services and informed decisions. It also provides tool to manage sales opportunities, automate sales process and generate quotations which can be converted into pricing.</p>
-                                </div>
-                                 <div class="col-lg-3">
-                                    <img src="/images/Sales_Services.png" height="150" width="200" style="margin: 10px auto; display: block;" />
-                                </div>
-                                
-                                <div class="clearfix">
-                                </div>
-                                <hr />
-                                 <div class="col-lg-3">
-                                    <img src="/images/11.png" height="150" width="200" style="margin: 10px auto; display: block;" />
-                                </div>
-                                <div class="col-lg-9">
-                                    <br />
-                                    <p><b>Inland Transport :</b></p>
-                                    <p>
-                                        It manages sales right from the Inquiry to client acquisition covering the entire sales process. All Rates and Traiffs can be maintained, Quotations can be generated, Sales performance can be measeured. The customer service feature tracks customer Interactions, including visits, and consistency in terms of responsiveness.
-                                    </p>
-                                </div>
-                                <div class="clearfix">
-                                </div>
-                                <hr />
-                                <div class="col-lg-9">
-                                    <br />
-                                    <p><b>Purchase Order :</b></p>
-                                    <p>
-                                        It manages sales right from the Inquiry to client acquisition covering the entire sales process. All Rates and Traiffs can be maintained, Quotations can be generated, Sales performance can be measeured. The customer service feature tracks customer Interactions, including visits, and consistency in terms of responsiveness.
-                                    </p>
-                                </div>
-                                 <div class="col-lg-3">
-                                    <img src="/images/Purchase_Order.png" height="150" width="200" style="margin: 10px auto; display: block;" />
-                                </div>
-                                
-                                <div class="clearfix">
-                                </div>
-                                <hr />
-                                 <div class="col-lg-3">
-                                    <img src="/images/Warehousing.png" height="150" width="200" style="margin: 10px auto; display: block;" />
-                                </div>
-                                <div class="col-lg-9">
-                                     <br />
-                                    <p><b>Warehousing :</b></p>
-                                    <p>
-                                        Warehouse management Module covers the entire warehousing operations whether as a part of service, or as separate business function. Stock Management for Single or Multiple Warehouses can be handled with an easy-to-use interface.
-                                    </p>
-                                </div>
-                                <div class="clearfix">
-                                </div>
-                                <hr />
-                                <div class="col-lg-9">
-                                     <br />
-                                    <p><b>Customer Billing :</b></p>
-                                    <p>
-                                        Automated generation of invoices on the basis of contracts (quotations), freight and actual expenses. Regulation of Credit limits of the customers. Bid farewell to your calculator and mental mathematics.
-                                    </p>
-                                </div>
-                                 <div class="col-lg-3">
-                                    <img src="/images/Customs.png" height="150" width="200" style="margin: 10px auto; display: block;" />
-                                </div>
-                                
-                                <div class="clearfix">
-                                </div>
-                                <hr />
-                                 <div class="col-lg-3">
-                                    <img src="/images/Container_Management.png" height="150" width="200" style="margin: 10px auto; display: block;" />
-                                </div>
-                                <div class="col-lg-9">
-                                    <br />
-                                    <p><b>Container Management :</b></p>
-                                    <p>
-                                        The module handles all aspect of container management from Yard-to Yard enabling optimum utilization of resources. It provides total Asset Management of containers right from purchase to scrap.
-                                    </p>
-                                    <p>
-                                        Tracking/Control of own/lease containers, detention and damages-optimization can be managed with ease. Maintenance of container including the various test, examinations and repairs required can be managed and monitored.
-                                    </p>
-                                </div>
-                                <div class="clearfix">
-                                </div>
-                                <hr />
-                                <div class="col-lg-9">
-                                    <br />
-                                    <p><b>Financial Accounting :</b></p>
-                                    <p>
-                                        Before you thank us, this feature might have your CA thanking you. Tightly integrated and full featured account module that ensures all the revenue related information is directly posted in accounts will only smoothen and quicken your delivery to billing process.
-                                    </p>
-                                </div>
-                                 <div class="col-lg-3">
-                                    <img src="/images/Approvals.png" height="150" width="200" style="margin: 10px auto; display: block;" />
-                                </div>
-                                
-                                <div class="clearfix">
-                                </div>
-                                <hr />
-                                 <div class="col-lg-3">
-                                    <img src="/images/Customs.png" height="150" width="200" style="margin: 10px auto; display: block;" />
-                                </div>
-                                <div class="col-lg-9">
-                                    <br />
-                                    <p><b>Customs & Regulatory :</b></p>
-                                    <p>
-                                        Before Custom management module takes care of the necessary compliance issues specific to a country’s customs. It handles shipment and regulatory compliances and provides complete control over provides complete control over your customs broking operations.
-                                    </p>
-                                </div>
-                                <div class="clearfix">
-                                </div>
-                                <hr />
-                                <div class="col-lg-9">
-                                    <br />
-                                    <p><b>Customer Visibility :</b></p>
-                                    <p>
-                                        Customers are empowered by keeping informed through status messages, scheduled reports, event based email notifications, SMS alerts and web access.The module allows complete visibility to customers on their shipment with real-time tracking of shipment status and history of shipments. Our product portfolio also includes advance version of visibility solution called Visi-Sys.
-                                    </p>
-                                </div>
-                                 <div class="col-lg-3">
-                                    <img src="/images/Visibility_Module.png" height="150" width="200" style="margin: 10px auto; display: block;" />
-                                </div>
-                                
-                                <div class="clearfix">
-                                </div>
-                                <hr />
-                                 <div class="col-lg-3">
-                                    <img src="/images/Report_Scheduler.png" height="150" width="200" style="margin: 10px auto; display: block;" />
-                                </div>
-                                <div class="col-lg-9">
-                                    <br />
-                                    <p><b>Business Reporting :</b></p>
-                                    <p>
-                                        Trade_BusinessReporting The integrated Sales and Service module has been designed especially for Logistics service providers (LSP) enabling 360 visibility.
-                                    </p>
-                                    <p>
-                                        It manages sales right from the Inquiry to client acquisition covering the entire sales process. All Rates and Traiffs can be maintained, Quotations can be generated, Sales performance can be measeured. The customer service feature tracks customer Interactions, including visits, and consistency in terms of responsiveness.
-                                    </p>
-                                </div>
-                                <div class="clearfix">
-                                </div>
-                                <hr />
-                                <div class="col-lg-12">
-                                    <div class="col-lg-2">
-                                    </div>
-                                    <div class="col-lg-8">
-                                   
-                                    <p><h3 style="color: #0086c3; line-height: 28px; font-family: Georgia,Verdana,Arial;font-size: 20px; font-style: italic; text-align: left; vertical-align: top; padding-top:40px">
-                                        "A Web based, Comprehensive,
-                                        Modular Enterprise level Application
-                                        for Logistics Service Providers" </h3>
-                                        For more information... click here<a href="http://www.logisys.in"> www.logisys.in</a>
-                                    </p>
-                                    </div>
-                                    <div class="col-lg-2">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="feature">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <div class="col-lg-6">
-                                <br/>
-                                <p>   
-                                The Logi-Sys Work Environment
-                                    <ul>
-	                                    <li>Web based modular system</li>
-	                                    <li>Dashboard View</li>
-	                                    <li>Multiple Branches</li>
-	                                    <li>Users based on roles</li>
-                                    </ul>
-                                </p>
-                                <br />
-                                <p>Its core modules are Operations Air & Sea, Management Controls and Billing. Optional modules are Financial Accounting, Sales & Service (CRM), Purchase Order Management, Web link and Local Custom Clearing.</p>
-                            </div>
-                            <div class="col-lg-6">
-                              <img src="/images/logisys_benefits_small.jpg" height="209" width="350" style="margin: 10px auto;
-                                    display: block;" />
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="Benefits">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <div class="col-lg-12">
-                            <br />
-                            <br />
-                                <p>World over Freight Forwarding business is facing major challenges:</p>
-                                <br />
-                                <ul>
-                                    <li>
-                                        <p>
-                                            The role of the freight forwarder is undergoing transformation. In today’s global world, freight forwarders are evolving as total logistics service providers (LSP).
-                                        </p>
-                                    </li>
-                                     <li>
-                                        <p>
-                                            Customers are becoming demanding and expect faster delivery and better service, at lower prices.
-                                        </p>
-                                    </li>
-                                     <li>
-                                        <p>
-                                            The traditional freight forwarding business is evolving into a complex global operation, with globalization and security concerns adding risk, cost and complexity to trade processes.
-                                        </p>
-                                    </li>
-                                     <li>
-                                        <p>
-                                            Salaries are rising, while profit margins are getting slimmer. Freight forwarders are now striving to maximize capacity and minimize costs while profitably meeting the requirements of their customers.
-                                        </p>
-                                    </li>
-                                </ul>
-                                <br />
-                                <p>Logi-Sys provides freight forwarders with an integrated global freight forwarding software that ensures lower total cost of ownership (TCO) and quick return on investment (RoI). Logi-Sys can help freight forwarders keep pace with the challenges today and is adaptable to ever-changing environments.</p>
-                            </div>
-                            <div class="col-lg-12">
-                                <br />
-                                <img src="/images/logisys_benefits_small.jpg" height="269" width="450" style="margin: 10px auto;
-                                    display: block;" />
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="caseStudy">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <div class="col-lg-4">
-                                <img src="images/visual_akash.jpg" height="262" width="265" style="margin: 10px auto; display: block;" />
-                            </div>
-                            <div class="col-lg-8">
-                                <br />
-                                <p>
-                                  Brouchers
-                                </p>
-                                <div class="clearfix">
-                                </div>
-                                <hr />
-                                <ul>
-                                    <li>
-                                        <p>
-                                            <a href="PDF/Corporate-Brochure.pdf" target="_blank">Corporate Broucher</a>
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p>
-                                            <a href="PDF/visual_impex.pdf" target="_blank">Visual IMPEX</a>
-                                        </p>
-                                        
-                                    </li>
-                                    <li>
-                                        <p>
-                                            <a href="PDF/visual_akash.pdf" target="_blank">Visual Akash</a>
-                                        </p>
-                                    </li>
-                                    <li>
-                                       <p>
-                                            <a href="PDF/visual_samudra.pdf" target="_blank">Visual Samudra</a>
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p>
-                                            <a href="PDF/visual_Accounts.pdf" target="_blank">Visual Accounts</a>
-                                        </p>
-                                    </li>
-                                    <li>
-                                       <p>
-                                            <a href="PDF/visual_xport.pdf" target="_blank">Visual X-Port</a>
-                                        </p>
-                                    </li>
-                                    <li>
-                                       <p>
-                                            <a href="PDF/Logi-Sys.pdf" target="_blank">Logi-Sys</a>
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p>
-                                            <a href="PDF/X-Ponent.pdf" target="_blank">X-Ponent</a>
-                                        </p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-       </div>
-       <div class="clearfix">
-       </div>
-       <hr />
-       <div class="container content-block-7">
-            <div class="row" style="padding: 5px 0px 5px 0px;">
-                <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 content-block-free-demo-left">
-                    <img src="/images/free-demo-image.png" alt="Try free demo" />
-                </div>
-                <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 content-block-free-demo">
-                    <h1 class="header">Click here for a free demo</h1>
-                    <p class="desc">
-                        Kindly share your <a href="mailto:solftlink.com">Email - ID</a> with us to receive an on-line Demo invite or get yourself registered for on-line demo.
+    <div class="content-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 main-content">
+                    <h1 class="c-header"><img src="/images/logi-sys-logo.png" />&nbsp;&nbsp;Logi-Sys Product Overview</h1>
+                    <p class="c-para">
+                        Logi-Sys is an easy to use online Cloud ERP Platform for Freight Forwarding & Logistics Industry. Helps you to organize your Operations & Financial accounting in one platform.
                     </p>
-                    <a href="/enquiry.aspx" class="btn btn-success">Request Demo</a>
+
+                    <div class="clearfix"></div>
                 </div>
             </div>
         </div>
+    </div>
+    <div class="sublink-wrapper background-darkgray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 hidden-sm hidden-xs">
+                    &nbsp;
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <div class="prod-sublink">
+                        <a href="#">Download Brochure</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <div class="prod-sublink">
+                        <a href="#" class="prod-sublink">Case Studies</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="blank-seperator">&nbsp;</div>
+    <div class="sublink-wrapper background-lightgray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 sub-content">
+                    <h3>
+                        For More Information Click here <a href="http://www.logisys.in">www.logisys.in/</a>
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="logi-any-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 logi-any-left">
+                    <h1 class="left-header">
+                        Anytime, anywhere access
+                    </h1>
+                    <p class="left-para">
+                        Log in to Logi-Sys from any Internet connected Mac, PC or phone. Work from the office, home, or the road. You can be anywhere in the world!
+                    </p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 logi-any-right">
+                    <img class="img-responsive center-block c-img" src="/images/logi-laptop.png" alt="" height="250" width="375">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="stacked-features">
+        <div class="container">
+            <div class="row">
+                <div class="stacked-wrapper first-stack">
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                        <div class="stacked-l-item">
+                            <h1>Sales & Services(CRM)</h1>
+                            <ul>
+                                <li>Request for Quote</li>
+                                <li>Quotations</li>
+                                <li>Booking</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 first-stack-sep">
+                        <span class="stacked-dot">1</span>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 hidden-xs">
+                        <div class="stacked-r-item">
+                            <img class="img-responsive c-img center-block" src="/images/logi-user.png">
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="stacked-wrapper">
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 hidden-xs">
+                        <div class="stacked-l-item">
+                            <img class="img-responsive c-img center-block" src="/images/logi-refresh.png">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+                        <span class="stacked-dot">2</span>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                        <div class="stacked-r-item">
+                            <h1>Freight Forwarding Operations</h1>
+                            <ul>
+                                <li>Ocean freight</li>
+                                <li>Air freight</li>
+                                <li>Inland Transport</li>
+                                <li>Documentation & Compliance</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="stacked-wrapper">
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                        <div class="stacked-l-item">
+                            <h1>Warehousing</h1>
+                            <ul>
+                                <li>Inbound</li>
+                                <li>Outbound</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+                        <span class="stacked-dot">3</span>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 hidden-xs">
+                        <div class="stacked-r-item">
+                            <img class="img-responsive c-img center-block" src="/images/logi-home.png">
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="stacked-wrapper last-stack">
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 hidden-xs">
+                        <div class="stacked-l-item">
+                            <img class="img-responsive c-img center-block" src="/images/logi-note.png">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 last-stack-sep">
+                        <span class="stacked-dot">4</span>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                        <div class="stacked-r-item">
+                            <h1>Financial Accounting</h1>
+                            <ul>
+                                <li>Money in</li>
+                                <li>Money out</li>
+                                <li>Tax (Service Tax, VAT, With holiding)</li>
+                                <li>Financial Statements</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sublink-wrapper background-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 sub-content">
+                    <h1 class="c-header" style="text-align: center;">More than 3,000+ users works online with Logi-sys See what they think</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sublink-wrapper">
+        <div class="container">
+            <div class="row think-box">
+                <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
+                    <h1>Siddharth Jairaj</h1>
+                    <h2>Director, TVS Dynamics</h2>
+                    <p>We have confidence in Softlink and “Logi-Sys” as it has passed our evaluation process. Both our teams worked closely to ensure timelines were met and successful implementation by softlink and TVS dynamics. TVS Dynamics selected “Logi-Sys” from among the number of software available in the market, after subjecting them to stringent evaluation process. The highlight of the software deployment was the implementation of “Logi-Sys” with record time which was completed within 30 days.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <uc2:demo ID="demo1" Details="Logi-Sys" runat="server" />
+    <uc1:product ID="product1" No="6" runat="server" />
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="footer" runat="Server">
 </asp:Content>

@@ -307,6 +307,39 @@ a.main-logo img
 }
 
 /***/
+.think-box {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.think-box .pr-img {
+    margin-top: 6px;
+}
+
+.think-box h1 {
+    margin: 0;
+    padding: 0;
+    color: #605D5C;
+    line-height: 34px;
+    font-size: 28px;
+}
+
+.think-box h2 {
+    margin: 0;
+    padding: 0;
+    color: #828180;
+    line-height: 34px;
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+.think-box p {
+    color: #828180;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+/***/
 .success-box {
     margin-top: 38px;
 }
@@ -1093,6 +1126,147 @@ a.main-logo img
     padding-left: 25px;
     padding-right: 25px;
 }
+
+/************** TRADE SYS **************/
+.trade-wrapper {
+
+}
+
+.trade-left {
+
+}
+
+.trade-left .left-header {
+    text-align: center;
+    color: #605D5C;
+}
+
+.trade-left .c-img {
+    float: none;
+}
+/***************************************/
+
+/************** LOGi SYS ***************/
+.logi-any-wrapper {
+    background: #0093dd;
+}
+
+.logi-any-left {
+    padding-top: 0px;
+}
+
+.logi-any-left .left-header {
+    color: #FFF;
+    margin-bottom: 20px;
+}
+
+.logi-any-left .left-para {
+    color: #FFF;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.logi-any-right {
+    /*padding: 45px 5px 45px 5px;*/
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.logi-any-right .c-img {
+    float: none;
+}
+
+.stacked-features {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.stacked-wrapper {
+     background: url('../images/stack-sep.png') center repeat-y;
+     padding-bottom: 20px;
+}
+
+.stacked-l-item {
+    padding-left: 20px;
+}
+
+.stacked-wrapper h1 {
+    margin: 0;
+    font-size: 28px;
+    margin-top: 18px;
+    margin-bottom: 5px;
+}
+
+.stacked-wrapper ul {
+    list-style-image: url('../images/icon-ok.png');
+}
+
+.stacked-wrapper li {
+    font-size: 18px;
+}
+
+.stacked-r-item {
+    padding-left: 20px;
+}
+
+.stacked-l-item .c-img {
+    float: none;
+}
+
+.stacked-r-item .c-img {
+    float: none;
+}
+
+.stacked-l-img {
+
+}
+
+.stacked-r-img {
+
+}
+
+.first-stack {
+    /*background: none;*/
+}
+
+.last-stack {
+    background: none;
+}
+
+.first-stack-sep {
+    padding-top: 30px;
+    background: #FFF;
+}
+
+.last-stack-sep {
+    padding-top: 30px;
+    background: url('../images/stack-sep.png') center repeat-y;
+    margin-left: -1px;
+}
+
+
+.stacked-blank {
+    background: #fff;
+    height: 40px;
+    display: block;
+}
+
+.stacked-dot {
+    background: url('../images/blue-big-dot.png') center no-repeat;
+    width: 45px;
+    height: 45px;
+    display: block;
+    text-align: center;
+    line-height: 45px;
+    color: #FFF;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+.blue-ver-line {
+    /*background: url('../images/stack-sep.png') 20px top repeat-y;*/
+}
+/***************************************/
 
 /***********************************/
 .news-sub-wrapper {
@@ -2278,6 +2452,10 @@ ul.sitemap .sitemap-item a:hover {
     .req-demo-wrapper {
         background: #fff url('/images/request-demo-lg.png');
     }
+
+    .last-stack-sep {
+        margin-left: 0 !important;
+    }
 }
 
 /* TABLET */
@@ -2412,6 +2590,14 @@ ul.sitemap .sitemap-item a:hover {
 
     .month-box-wrap {
         margin-bottom: 15px;
+    }
+
+    .stacked-l-item {
+        padding-left: 0px;
+    }
+
+    .stacked-r-item {
+        padding-left: 0px;
     }
 }
 
@@ -2680,6 +2866,53 @@ ul.sitemap .sitemap-item a:hover {
     .news-sub-left .left-para {
         margin-left: 0 !important;
         margin-bottom: 0 !important;
+    }
+
+    .stacked-wrapper {
+        background: none;
+        padding-bottom: 20px;
+        position: relative;
+    }
+
+    .stacked-wrapper .col-lg-2 {
+        position: absolute;
+        background: url('../images/stack-sep.png') center repeat-x;
+        height: 45px;
+    }
+
+    .first-stack-sep {
+        padding-top: 0;
+    }
+
+    .last-stack-sep {
+        padding-top: 0;
+        background: none;
+        margin-left: 0;
+    }
+
+    .stacked-l-item {
+        padding-left: 0;
+        margin-top: 50px;
+    }
+
+    .stacked-r-item {
+        padding-left: 0;
+        margin-top: 50px;
+    }
+
+    .stacked-dot {
+        position: absolute;
+        top: 0px;
+        margin-left: -22px;
+        left: 50%;
+    }
+
+    .content-block-left-bottom {
+        padding-left: 0;
+    }
+
+    .content-block-right-bottom .left-item-list {
+        margin-left: 10px;
     }
 }
 
