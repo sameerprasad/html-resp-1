@@ -216,6 +216,11 @@ a.main-logo img
     margin-bottom: 40px;
 }
 
+.main-content .c-sub-header {
+    color: #716F6E;
+    font-size: 22px;
+}
+
 .main-content .c-para {
     color: #24211D;
     line-height: 34px;
@@ -732,6 +737,75 @@ a.main-logo img
     color: #716F6E;
     line-height: 34px;
     font-size: 16px;
+}
+
+.case-small-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.case-small-list li {
+    color: #716F6E;
+    line-height: 34px;
+    font-size: 16px;
+}
+
+.case-small-list li a {
+    color: #1f1a17;
+}
+
+.trade-small-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.trade-small-list li {
+    color: #716F6E;
+    line-height: 42px;
+    font-size: 16px;
+}
+
+.trade-small-list li a {
+    color: #716F6E;
+}
+
+.exp-sml-wrapper {
+
+}
+
+.exp-sml-item {
+    margin-bottom: 20px;
+}
+
+.exp-sml-item h1 {
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 30px;
+    margin: 0 0 0 0;
+}
+
+.exp-sml-item h2 {
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 30px;
+    margin: 0 0 0 0;
+}
+
+.resource-read-more {
+    font-size: 18px;
+    color: #1f1a17;
+}
+
+.resource-read-more a {
+    color: #1f1a17;
+}
+
+.sub-content .text-highlight {
+    color: #0093dd;
 }
 
 .prod-sublink {
@@ -1268,6 +1342,41 @@ a.main-logo img
 }
 /***************************************/
 
+/************************************/
+
+.prod-upd-wrapper {
+    background: #969594;
+}
+
+.prod-upd-left {
+    padding-top: 90px;
+}
+
+.prod-upd-left .left-header {
+    color: #FFF;
+    margin-bottom: 20px;
+}
+
+.prod-upd-left .left-para {
+    color: #FFF;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.prod-upd-right {
+    /*padding: 45px 5px 45px 5px;*/
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.prod-upd-right .right-header {
+    color: #FFF;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 30px;
+    text-align: right;
+}
+
 /***********************************/
 .news-sub-wrapper {
     background: #12708e;
@@ -1311,6 +1420,30 @@ a.main-logo img
 .c-btn-2:hover {
     background-color: #05abd9;
     border-color: #0eadd9;
+}
+
+/************************************/
+
+.exp-wrapper {
+    margin-top: 15px;
+}
+
+.exp-item {
+    margin-bottom: 20px;
+}
+
+.exp-item h1 {
+    font-size: 16px;
+    color: #716F6E;
+    line-height: 30px;
+    margin: 0 0 0 0;
+}
+
+.exp-item h2 {
+    font-size: 16px;
+    color: #716F6E;
+    line-height: 30px;
+    margin: 0 0 0 0;
 }
 
 /************************************/
@@ -1820,6 +1953,51 @@ a.main-logo img
 }
 
 /**********************************************************************/
+.testmnl-small {
+
+}
+
+.testmnl-small-item {
+    height: 280px;
+    position: relative;
+}
+
+.testmnl-small-desc {
+    height: 209px;
+    overflow: auto;
+}
+
+.testmnl-small-desc p {
+    color: #716F6E;
+    line-height: 34px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.testmnl-small-info {
+    background: #FFFFFF;
+    padding: 5px;
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.testmnl-small-info img {
+    float: left;
+}
+
+.testmnl-small-info h1 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 12px 0 0 110px;
+}
+
+.testmnl-small-info h2 {
+    font-size: 14px;
+    margin: 0 0 0 110px;
+}
+/**********************************************************************/
 
 .footer-block-1 {
     padding-top: 18px;
@@ -2170,12 +2348,7 @@ ul.sitemap .sitemap-item a:hover {
 
 
 .reg-form {
-    border: solid 1px #333;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    padding: 20px;
-    margin: 20px auto;
+    margin: 35px auto 0 auto;
     float: none;
 }
 
@@ -2191,13 +2364,14 @@ ul.sitemap .sitemap-item a:hover {
 }
 
 .required {
-    color: red;
+    color: #0093DD;
 }
 
 .form-horizontal .control-label {
     text-align: left;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: normal;
+    color: #716F6E;
 }
 
 .form-horizontal .form-seperator
@@ -2236,7 +2410,7 @@ ul.sitemap .sitemap-item a:hover {
 }
 
 .enq-product-list {
-    margin: 0;
+    margin: 5px 0 0 0;
     padding: 0 0 0 2px;
     list-style-type: none;
 }
@@ -2244,6 +2418,8 @@ ul.sitemap .sitemap-item a:hover {
 .enq-product-list li label {
     font-weight: normal;
     padding-left: 5px;
+    color: #716F6E;
+    font-size: 16px;
 }
 
 .site-map-address {
@@ -2456,6 +2632,15 @@ ul.sitemap .sitemap-item a:hover {
     .last-stack-sep {
         margin-left: 0 !important;
     }
+
+    .testmnl-small-item {
+        height: 400px;
+    }
+
+    .testmnl-small-desc {
+        height: 329px;
+        overflow: auto;
+    }
 }
 
 /* TABLET */
@@ -2598,6 +2783,19 @@ ul.sitemap .sitemap-item a:hover {
 
     .stacked-r-item {
         padding-left: 0px;
+    }
+
+    .testmnl-small-item {
+        height: auto;
+        margin-bottom: 25px;
+    }
+
+    .testmnl-small-desc {
+        height: auto;
+    }
+
+    .testmnl-small-info {
+        position: static;
     }
 }
 
@@ -2868,6 +3066,19 @@ ul.sitemap .sitemap-item a:hover {
         margin-bottom: 0 !important;
     }
 
+    .prod-upd-left {
+        padding-top: 0;
+    }
+
+    .prod-upd-left .left-header {
+        margin-left: 0 !important;
+    }
+
+    .prod-upd-left .left-para {
+        margin-left: 0 !important;
+        margin-bottom: 0 !important;
+    }
+
     .stacked-wrapper {
         background: none;
         padding-bottom: 20px;
@@ -2913,6 +3124,34 @@ ul.sitemap .sitemap-item a:hover {
 
     .content-block-right-bottom .left-item-list {
         margin-left: 10px;
+    }
+
+    .our-client-wrapper div {
+        padding: 0 0 0  5px;
+        text-align: center;
+    }
+
+    .testmnl-small-item {
+        height: auto;
+        margin-bottom: 25px;
+    }
+
+    .testmnl-small-desc {
+        height: auto;
+    }
+
+    .testmnl-small-info {
+        position: static;
+        text-align: center;
+        height: auto;
+    }
+
+    .testmnl-small-info img {
+        float: none;
+    }
+
+    .testmnl-small-info h1, .testmnl-small-info h2 {
+        margin: 5px 0 0 0;
     }
 }
 

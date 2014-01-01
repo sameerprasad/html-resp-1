@@ -151,7 +151,7 @@ public partial class enquiry : System.Web.UI.Page
         {
             isOK = false;
         }
-        
+
         if (isOK)
         {
             if (!Regex.IsMatch(txtEmail.Text, @"\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"))

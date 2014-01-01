@@ -1,12 +1,42 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Application.master" AutoEventWireup="true" CodeFile="enquiry.aspx.cs" Inherits="enquiry" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Application.master" AutoEventWireup="true" CodeFile="partners.aspx.cs" Inherits="partners_partners" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+    <style type="text/css">
+        .partner-form .c-header, .partner-form .c-para, .partner-form .control-label, .partner-form .required {
+            color: #fff;
+        }
+
+        .enq-product-list li label {
+            color: #fff;
+        }
+    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <div class="container banner-container">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 main-banner">
-                <img src="/images/sliders/enquiry.png" width="100%" />
+                <img src="/images/sliders/partners.png" width="100%" />
+            </div>
+        </div>
+    </div>
+    <div class="content-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 main-content">
+                    <h1 class="c-header">Partners</h1>
+                    <h1 class="c-sub-header" style="margin-bottom: 25px;">What is the Softlink Partner Program?</h1>
+                    <p class="c-para">
+                        The Softlink Global Partner Program brings together Softlink's comprehensive software solutions and services. User requirements are at the core of everything Softlink does. In fully meeting them, Softlink recognizes the importance of working with a varied group of partners whose offerings complement Softlink's Logistics software solution, and help to sustain the businesses of Softlink users to be more successful. 
+                    </p>
+                    <p class="c-para">
+                        Softlink's partners are carefully chosen for their expertise, competencies, and knowledge in delivering solutions. Softlink's alignment with key partners provides a comprehensive support community that enables users to run their organizations more effectively and achieve their objectives more efficiently.
+                    </p>
+                    <p class="c-para">
+                        Softlink Partners sell, train, implement, support, and enhance our offerings to users through their industry expertise and proven sales and technical knowledge of our products and solutions. 
+                    </p>
+
+                    <div class="clearfix"></div>
+                </div>
             </div>
         </div>
     </div>
@@ -14,9 +44,32 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 sub-content">
-                    <h1 class="c-header">Enquiry</h1>
-                    <p class="c-para">Grab the opportunity and fill up below form to schedule online demo of World’s Most Comprehensive Cloud ERP for freight Forwarding & Logistic industry and know how Logi-Sys simplifies your operation and brings financial & operational control.</p>
-                    <p class="c-para">Please fill up the Demo Request Form below so that we can send you demo invitation.</p>
+                    <h1 class="c-sub-header" style="margin-bottom: 25px;">Become a Global Partner</h1>
+                    <p class="c-para">
+                        If your company is looking to grow its business by providing sales, training, and support services of Logistic Software products to small and medium-sized businesses, we'd like to hear from you!
+                    </p>
+                    <p class="c-para">
+                        The Softlink Partner Program offers valuable tools and resources to benefit partners, including: 
+                    </p>
+                    <ul class="c-list">                        
+                        <li>Aggressive commissions</li>
+                        <li>Training & Assistance</li>
+                        <li>Access to campaigns</li>
+                        <li>Dedicated Resources</li>
+                        <li>Sales Support</li>
+                        <li>Marketing Support</li>
+                        <li>Implementation Support</li>
+                        <li>Technical Support</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sublink-wrapper background-gray1 partner-form">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 sub-content">
+                    <h1 class="c-header">Become a global partner</h1>
                     <p class="c-para">Entries Marked with <span class="required">*</span> are compulsory. Please help us to reach you faster.</p>
                     
                     <div class="form-horizontal reg-form">

@@ -8,14 +8,14 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-public partial class support : System.Web.UI.Page
+public partial class partners_partners : System.Web.UI.Page
 {
     Utility utility = new Utility();
     protected void Page_Load(object sender, EventArgs e)
     {
         if (!IsPostBack)
         {
-            txtName.Focus();
+            //txtName.Focus();
             BindCountry();
         }
     }

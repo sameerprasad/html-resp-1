@@ -3,7 +3,7 @@
 var ALERT_ERROR = 0, ALERT_SUCCESS = 1, ALERT_WARN = 2, ALERT_INFO = 3;
 
 $(document).ready(function () {
-    $('#btn-mobile-menu').click(function (e) {
+    $('#btn-mobile-menu,.submenu').click(function (e) {
         e.stopPropagation();
     });
 
