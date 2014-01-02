@@ -15,7 +15,7 @@ public partial class support : System.Web.UI.Page
     {
         if (!IsPostBack)
         {
-            txtName.Focus();
+            //txtName.Focus();
             BindCountry();
         }
     }

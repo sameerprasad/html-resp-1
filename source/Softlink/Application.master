@@ -484,6 +484,9 @@
         </div>
         <!-- FOOTER ENDS -->
     </div>
+    <div class="suport-side-tab">
+        <a href="/supports/support.aspx">&nbsp;</a>
+    </div>
     </form>
 
     <!-- DEBUG -->

@@ -162,6 +162,22 @@ a.main-logo img
     color: #fff;
 }
 
+.suport-side-tab {
+    width: 50px;
+    height: 125px;
+    position: absolute;
+    top: 465px;
+    right: 0px;
+    z-index: 900;
+}
+
+.suport-side-tab a {
+    display: block;
+    width: 50px;
+    height: 125px;
+    background: url('../images/support-side-tab.png') no-repeat;
+}
+
 .content-block
 {
     
@@ -1064,6 +1080,10 @@ a.main-logo img
 .carousel-img-item {
     height: 300px;
     cursor: pointer;
+}
+
+.main-banner img {
+    height: 300px;
 }
 
 .content-block-1
@@ -2669,6 +2689,10 @@ ul.sitemap .sitemap-item a:hover {
         cursor: pointer;
     }
 
+    .main-banner img {
+        height: 250px;
+    }
+
     .content-block-sol-left {
         display: none;
     }
@@ -2822,6 +2846,11 @@ ul.sitemap .sitemap-item a:hover {
         height: 200px;
         margin: 0 auto;
         cursor: pointer;
+    }
+
+    .main-banner img {
+        margin: 0 auto;
+        height: 200px;
     }
 
     .content-block-sol-left {
