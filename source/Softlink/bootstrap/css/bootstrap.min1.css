@@ -1,13 +1,3 @@
-/*!
- * Bootstrap v3.0.3
- *
- * Copyright 2013 Twitter, Inc
- * Licensed under the Apache License v2.0
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Designed and built with all the love in the world @twitter by @mdo and @fat.
- */
-
 /*! normalize.css v2.1.3 | MIT License | git.io/normalize */
 article,
 aside,
@@ -265,7 +255,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: 'softfont', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "softfont1", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.428571429;
   color: #333333;
@@ -347,7 +337,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: 'softfont', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "softfont1", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;

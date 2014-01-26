@@ -229,7 +229,7 @@ a.main-logo img
 
 .main-content .c-header {
     color: #605D5C;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .main-content .c-sub-header {
@@ -239,9 +239,31 @@ a.main-logo img
 
 .main-content .c-para {
     color: #24211D;
-    line-height: 34px;
+    line-height: 30px;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.c-list-orderd {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: #24211D;
+    line-height: 30px;
     font-size: 18px;
     margin-bottom: 20px;
+}
+
+.support-list {
+    margin: 0;
+    padding: 0;
+    list-style-position: inside;
+    list-style-image: url('../images/icon-ok.png');
+}
+
+.support-list li {
+    font-size: 18px;
+    color: #716F6E;
 }
 
 .main-content .blue-highlight {
@@ -298,7 +320,7 @@ a.main-logo img
 }
 
 .profile-box {
-    margin-top: 38px;
+    margin-top: 25px;
 }
 
 .profile-box .pr-img {
@@ -323,7 +345,7 @@ a.main-logo img
 
 .profile-box p {
     color: #828180;
-    line-height: 34px;
+    line-height: 30px;
     font-size: 18px;
 }
 
@@ -703,8 +725,8 @@ a.main-logo img
 /* Trade Talk Ends */
 
 .sub-content {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .sub-content h3 {
@@ -722,6 +744,7 @@ a.main-logo img
 .sub-content .c-header {
     color: #605D5C;
     margin-bottom: 20px;
+    margin-top: 0;
 }
 
 .sub-content .c-sub-header {
@@ -731,9 +754,9 @@ a.main-logo img
 
 .sub-content .c-para {
     color: #716F6E;
-    line-height: 34px;
+    line-height: 30px;
     font-size: 18px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .sub-content .c-list {
@@ -816,6 +839,16 @@ a.main-logo img
     color: #1f1a17;
 }
 
+.think-box-read-more {
+    font-size: 18px;
+    color: #1f1a17;
+    margin-bottom: 0;
+}
+
+.think-box-read-more a {
+    color: #1f1a17;
+}
+
 .resource-read-more a {
     color: #1f1a17;
 }
@@ -828,11 +861,13 @@ a.main-logo img
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
+    text-align: left;
 }
 
 .prod-sublink a {
-    color: #FFFFFF;
+    color: #24211D;
     text-decoration: underline;
+    font-size: 18px;
 }
 
 .blank-seperator {
@@ -846,12 +881,17 @@ a.main-logo img
 }
 
 .blank-seperator-2 {
-    height: 15px;
+    height: 30px;
 }
 
 .background-gray
 {
     background: #DEDEDC;
+}
+
+.background-light-blue
+{
+    background: #b6c6d4;
 }
 
 .background-lightgray
@@ -877,6 +917,11 @@ a.main-logo img
 .background-blue2
 {
     background: #007094;
+}
+
+.background-blue3
+{
+    background: #1ab7f1;
 }
 
 .background-demo
@@ -922,7 +967,7 @@ a.main-logo img
 {
     padding: 9px;
     /*background: url('../images/arrow-right.png') no-repeat 220px center;*/
-    background: url('../images/arrow-right-big.png') no-repeat right center;
+    /*background: url('../images/arrow-right-big.png') no-repeat right center;*/
 }
 
 .freedemo .bolder
@@ -953,13 +998,13 @@ a.main-logo img
 {
     padding: 14px 20px 14px 20px;
     /*background: url('../images/arrow-down.png') no-repeat 225px center;*/
-    background: url('../images/arrow-down-big.png') no-repeat right center;
+    /*background: url('../images/arrow-down-big.png') no-repeat right center;*/
 }
 
 .cust-login div.selected
 {
     /*background: url('../images/arrow-up.png') no-repeat 225px center;*/
-    background: url('../images/arrow-up-big.png') no-repeat right center;
+    /*background: url('../images/arrow-up-big.png') no-repeat right center;*/
 }
 
 .cust-login .normal
@@ -1006,6 +1051,7 @@ a.main-logo img
     top: 1px;
     left: 0;
     position: absolute;
+    padding-bottom: 15px;
     
     background-color: #ddd;
     background: -webkit-linear-gradient(#dddddd, #f1f1f1);
@@ -1043,7 +1089,8 @@ a.main-logo img
 
 /*  MENU START  */
 .submenu-wrapper {
-    
+    /*border-left: solid 1px #ccc;*/
+    background: url('../images/menu-sep.png') no-repeat bottom left;
 }
 
 .submenu-wrapper .header {
@@ -1064,8 +1111,12 @@ a.main-logo img
 
 .submenu-wrapper .item-element {
     float: left;
-    width: 200px;
+    width: 50%;
     height: 27px;
+}
+
+.last-submenu-item .item-element {
+    width: 100%;
 }
 
 .submenu-wrapper .item-element span a {
@@ -1088,38 +1139,38 @@ a.main-logo img
 
 .content-block-1
 {
-    width: 100%;
-    max-width: 100%;
+    /*width: 100%;
+    max-width: 100%;*/
     /*background: #fff url('../images/bx-shadow.png') repeat-x;*/
     background: #fff;
 }
 
 .content-block-2
 {
-    width: 100%;
-    max-width: 100%;
+    /*width: 100%;
+    max-width: 100%;*/
     background: #fff;
 }
 
 .content-block-3
 {
-    width: 100%;
+    /*width: 100%;
     max-width: 100%;
-    background: #969594;
+    background: #969594;*/
 }
 
 .content-block-4
 {
-    width: 100%;
-    max-width: 100%;
+    /*width: 100%;
+    max-width: 100%;*/
     background: #12708e;
 }
 
 .content-block-5
 {
-    width: 100%;
+    /*width: 100%;
     max-width: 100%;
-    background: #1ab7f1;
+    background: #1ab7f1;*/
 }
 
 .content-block-6
@@ -1131,8 +1182,8 @@ a.main-logo img
 
 .content-block-7
 {
-    width: 100%;
-    max-width: 100%;
+    /*width: 100%;
+    max-width: 100%;*/
     background: #fff;
 }
 
@@ -1141,6 +1192,8 @@ a.main-logo img
     width: 100%;
     max-width: 100%;
     background: #eeeeee;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .content-block-left-bottom
@@ -1468,10 +1521,10 @@ a.main-logo img
 
 /************************************/
 .solution-main-header .left-header {
-    margin: 25px 0 10px 50px;
+    margin: 25px 0 10px 0;
     padding: 0;
     font-size: 36px;
-    color: #1f1a17;
+    color: #605D5C;
     /*font-family: 'Segoe UI Light', 'Segoe UI', Segoe, 'Helvetica Neue', Helvetica, Tahoma, Garuda, Arial, sans-serif;*/
 }
 
@@ -1544,7 +1597,7 @@ a.main-logo img
 }
 
 .content-block-sol-left .left-header {
-    margin: 20px 0 20px 50px;
+    margin: 20px 0 20px 0;
     padding: 0;
     font-size: 28px;
     color: #0093dd;
@@ -1552,9 +1605,9 @@ a.main-logo img
 }
 
 .content-block-sol-left .left-footer {
-    margin: 10px 0 10px 50px;
+    margin: 10px 0 10px 0;
     padding: 0;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .content-block-sol-left .left-footer a {
@@ -1567,7 +1620,7 @@ a.main-logo img
 }
 
 .content-block-sol-left .left-item-list {
-    margin: 0 0 0 50px;
+    margin: 0;
     padding: 0;
     list-style-type: none;
 }
@@ -1662,12 +1715,17 @@ a.main-logo img
 
 .content-block-news-left .left-header {
     margin: 22px 0 22px 0px;
-    margin-top: 125px;
+    margin-top: 55%;
     padding: 0;
-    font-size: 42px;
+    font-size: 36px;
     color: #fff;
-
+    text-align: right;
     /*font-family: 'Segoe UI Light', 'Segoe UI', Segoe, 'Helvetica Neue', Helvetica, Tahoma, Garuda, Arial, sans-serif;*/
+}
+
+.content-block-news-right {
+    padding-left: 0;
+    padding-right: 30px;
 }
 
 .content-block-news-wrapper
@@ -1676,7 +1734,7 @@ a.main-logo img
     height: 352px;
     overflow: hidden;
     position: relative;
-    margin: 25px 0 15px 34px;
+    margin: 30px 0 15px 0;
 }
 
 .content-block-news-wrapper ul
@@ -1708,14 +1766,14 @@ a.main-logo img
 
 .content-block-news-item
 {
-    padding: 5px;
+    padding: 5px 5px 5px 0;
     /*height: 70px;*/
     color: #fff;
 }
 
 .content-block-news-item h2
 {
-    font-size: 18px;
+    font-size: 22px;
     margin: 10px 0 0 0;
     padding: 0;
     line-height: 30px;
@@ -1723,11 +1781,20 @@ a.main-logo img
 
 .content-block-news-item span
 {
-    font-size: 16px;
+    font-size: 18px;
+}
+
+.trade-talk-read-more {
+    margin: 0 0 35px 0;
+    font-size: 22px;
+}
+
+.trade-talk-read-more a {
+    color: #fff;
 }
 
 .news-read-more {
-    margin: 30px 0 25px 35px;
+    margin: 30px 0 25px 0;
     font-size: 22px;
 }
 
@@ -1736,12 +1803,16 @@ a.main-logo img
 }
 
 .our-client-more {
-    margin: 30px 0 25px 50px;
+    margin: 36px 0 30px 0;
     font-size: 22px;
 }
 
 .our-client-more a {
     color: #ffffff;
+}
+
+.our-client-wrapper {
+    margin-bottom: 10px;
 }
 
 /********************************************************************/
@@ -1778,9 +1849,9 @@ a.main-logo img
 /********************************************************************/
 
 .content-block-client-left .left-header {
-    margin: 22px 0 5px 50px;
+    margin: 25px 0 5px 0;
     padding: 0;
-    font-size: 26px;
+    font-size: 36px;
     line-height: 36px;
     color: #fff;
 
@@ -1789,7 +1860,7 @@ a.main-logo img
 
 .content-block-client-left .left-sub-header 
 {
-    margin: 0 0 5px 50px;
+    margin: 0 0 5px 0;
     font-size: 22px;
     color: #fff;
     line-height: 36px;
@@ -1799,14 +1870,15 @@ a.main-logo img
 
 .content-block-client-left p
 {
-    margin: 0 0 5px 50px;
+    margin: 0 0 5px 0;
     color: #fff;
     line-height: 24px;
+    font-size: 18px;
 }
 
 .content-block-client-wrapper
 {
-    height: 320px;
+    height: 348px;
     position: relative;
     padding-top: 18px;
 }
@@ -1814,7 +1886,7 @@ a.main-logo img
 .client-slider-wrapper
 {
     width: 470px;
-    margin: 0 auto;
+    margin: 15px auto 0 auto;
     position: relative;
 }
 
@@ -2040,7 +2112,9 @@ a.main-logo img
 .right-item-details {
     display: none;
     margin-top: 34px;
-    margin-right: 50px;
+    /*height: 320px;*/
+    overflow: hidden;
+    margin-bottom: 35px;
 }
 
 .item-def {
@@ -2055,7 +2129,6 @@ a.main-logo img
 
 .content-block-2 .content-block-sol-right .right-item-details 
 {
-    margin-left: 50px;
     margin-right: 0;
 }
 
@@ -2076,18 +2149,18 @@ a.main-logo img
 }
 
 .right-item-details .right-item-header {
+    color: #716F6E;
     font-size: 26px;
-    color: #1f1a17;
 }
 
 .right-item-details .right-item-sub-header {
-    font-size: 20px;
-    color: #1f1a17;
     margin-bottom: 15px;
+    color: #716F6E;
+    font-size: 22px;
 }
 
 .right-item-details .right-item-details-part {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .right-item-details .right-item-details-part p {
@@ -2474,7 +2547,7 @@ ul.sitemap .sitemap-item a:hover {
 .footer-sitemap {
     margin-top: 20px;
     color: #fff;
-    font-size: 30px;
+    font-size: 36px;
 }
 
 /***** TAB LEFT ******/
@@ -2723,13 +2796,15 @@ ul.sitemap .sitemap-item a:hover {
     
     .right-item-details {
         display: block;
-        margin-top: 0;
-        margin-left: 0;
-        margin-right: 0;
+        margin: 0;
+        height: auto;
     }
 
     .right-prod-header {
         display: block;
+        margin-bottom: 0;
+        padding-bottom: 10px;
+        border-bottom: dotted 1px #ccc;
     }
 
     .content-block-2 .right-prod-header {
@@ -2776,8 +2851,17 @@ ul.sitemap .sitemap-item a:hover {
         display: none !important;
     }
 
+    .content-block-news-left {
+        padding-left: 0;
+    }
+
     .content-block-news-left .left-header {
-        margin: 22px 0 22px 50px;
+        margin: 22px 0 22px 0;
+        text-align: left;
+    }
+
+    .our-client-more {
+        margin: 30px 0 0 0;
     }
 
     .req-demo-wrapper {
@@ -2863,13 +2947,15 @@ ul.sitemap .sitemap-item a:hover {
     
     .right-item-details {
         display: block;
-        margin-top: 0;
-        margin-left: 0;
-        margin-right: 0;
+        margin: 0;
+        height: auto;
     }
 
     .right-prod-header {
         display: block;
+        margin-bottom: 0;
+        padding-bottom: 10px;
+        border-bottom: dotted 1px #CCC;
     }
 
     .content-block-2 .right-prod-header {
@@ -2918,6 +3004,7 @@ ul.sitemap .sitemap-item a:hover {
     /***/
     .client-slider-wrapper {
         width: 100%;
+        padding-bottom: 25px;
     }
 
     #clients-thumbs {
@@ -2987,8 +3074,13 @@ ul.sitemap .sitemap-item a:hover {
         
     }
 
+    .content-block-news-left {
+        padding: 0;
+    }
+
     .content-block-news-left .left-header {
-        margin: 22px 0 22px 0px;
+        margin: 22px 0 10px 0px;
+        text-align: left;
     }
 
     .content-block-news-wrapper {
@@ -3011,6 +3103,7 @@ ul.sitemap .sitemap-item a:hover {
 
     .caroufredsel_wrapper {
         width: auto !important;
+        height: auto !important;
         margin-left: 0px !important;
     }
 
@@ -3063,19 +3156,19 @@ ul.sitemap .sitemap-item a:hover {
     }
 
     .content-block-client-left .left-header {
-        margin: 22px 0 5px 10px;
+        margin: 22px 0 5px 0;
     }
 
     .content-block-client-left .left-sub-header {
-        margin: 22px 0 5px 10px;
+        margin: 22px 0 5px 0;
     }
 
     .content-block-client-left p {
-        margin: 0 0 5px 10px;
+        margin: 0 0 5px 0;
     }
 
     .our-client-more {
-        margin: 30px 0 25px 0;
+        margin: 30px 0 0 0;
     }
 
     .req-demo-left {
@@ -3093,6 +3186,10 @@ ul.sitemap .sitemap-item a:hover {
     .news-sub-left .left-para {
         margin-left: 0 !important;
         margin-bottom: 0 !important;
+    }
+
+    .content-block-news-right {
+        padding-right: 0;
     }
 
     .prod-upd-left {

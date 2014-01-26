@@ -5,7 +5,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
     <link href="/styles/jquery.bxslider.css" rel="stylesheet" />
     <style type="text/css">
-        .req-demo-wrapper .container {
+        /*.req-demo-wrapper .container {
             width: 100%;
             max-width: 100%;
         }
@@ -13,7 +13,7 @@
         .req-demo-left {
             padding-left: 50px;
         }
-
+        a
         .news-sub-wrapper .container {
             width: 100%;
             max-width: 100%;
@@ -29,6 +29,16 @@
 
         .news-sub-right {
             padding-right: 50px;
+        }*/
+
+        .news-sub-right .right-header {
+            font-size: 36px;
+        }
+
+        @media (min-width: 995px) and (max-width: 1180px) {
+            .news-sub-right .right-header {
+                font-size: 30px;
+            }
         }
     </style>
 </asp:Content>
@@ -92,10 +102,10 @@
                     <h1 class="right-prod-header"><img src="/images/logi-sys-logo.png" />&nbsp;&nbsp;Logi-Sys - Cloud ERP Platform</h1>
 
                     <div id="Logi_Default" class="right-item-details item-def">
-                        <h1 class="right-item-header">ABCD</h1>
-                        <h2 class="right-item-sub-header">1234567890</h2>
+                        <h1 class="right-item-header">Logi-Sys</h1>
+                        <h2 class="right-item-sub-header">Organize your business operations</h2>
                         <span class="right-item-details-part">
-                            <p>You can easily change the formatting of selected text in the document text by choosing a look for the selected text from the Quick Styles gallery on the Home tab. You can also format text directly by using the other controls on the Home tab. Most controls offer a choice of using the look from the current theme or using a format that you specify directly.</p>
+                            <p>Logi-Sys is an easy to use online Cloud ERP Platform for Freight Forwarding & Logistics Industry. Helps you to organize your Operations & Financial accounting in one platform.</p>
                         </span>
                     </div>
 
@@ -104,7 +114,6 @@
                         <h2 class="right-item-sub-header">Integrated to Accelerate Growth</h2>
                         <span class="right-item-details-part">
                             <p>This Freight Forwarding Module covers Inbound and Outbond, Air and Sea freight forwarding operations.</p>
-                            <p>The software manages the entire process of inbound operations from receipt of Pre- Alerts to Delivery orders. Outbound operations, right from Bookings, Consolidation, to Shipment can be handled. It also provides Alerts on exceptions and customer Notifications. Integrated with other Modules in a seamless flow of information, it eliminates double entry of data, while allowing department profit centres to be maintained.</p>
                         </span>
                     </div>
 
@@ -113,12 +122,6 @@
                         <h2 class="right-item-sub-header">Integrated to Accelerate Growth</h2>
                         <span class="right-item-details-part">
                             <p>The integrated Sales and Service module has been designed especially for Logistics service providers (LSP) enabling 360 visibility.</p>
-                            <p>
-                                It manages sales right from the Inquiry to client acquisition covering the entire sales process.
-                                All Rates and Traiffs can be maintained, Quotations can be generated, Sales performance can 
-                                be measeured. The customer service feature tracks customer Interactions, including visits, and 
-                                consistency in terms of responsiveness.
-                            </p>
                         </span>
                     </div>
 
@@ -127,7 +130,6 @@
                         <h2 class="right-item-sub-header">Integrated to Accelerate Growth</h2>
                         <span class="right-item-details-part">
                            <p>Warehouse management Module covers the entire warehousing operations whether as a part of service, or as separate business function. Stock Management for Single or Multiple Warehouses can be handled with an easy-to-use interface.</p>
-                           <p>This powerful module handles all aspects of warehousing operations from stock receipt, bay allocation, storage, stock visibility to resource monitoring and management. It also helps manage packing and repacking of goods.</p>
                         </span>
                     </div>
 
@@ -136,7 +138,6 @@
                         <h2 class="right-item-sub-header">Integrated to Accelerate Growth</h2>
                         <span class="right-item-details-part">
                             <p>The module handles all aspect of container management from Yard-to Yard enabling optimum utilization of resources. It provides total Asset Management of containers right from purchase to scrap.</p>
-                            <p>Tracking/Control of own/lease containers, detention and damages-optimization can be managed with ease. Maintenance of container including the various test, examinations and repairs required can be managed and monitored.</p>
                         </span>
                     </div>
 
@@ -153,12 +154,6 @@
                         <h2 class="right-item-sub-header">Integrated to Accelerate Growth</h2>
                         <span class="right-item-details-part">
                             <p>The integrated Sales and Service module has been designed especially for Logistics service providers (LSP) enabling 360 visibility.</p>
-                            <p>
-                                It manages sales right from the Inquiry to client acquisition covering the entire sales process.
-                                All Rates and Traiffs can be maintained, Quotations can be generated, Sales performance can 
-                                be measeured. The customer service feature tracks customer Interactions, including visits, and 
-                                consistency in terms of responsiveness.
-                            </p>
                         </span>
                     </div>
 
@@ -167,7 +162,6 @@
                         <h2 class="right-item-sub-header">Integrated to Accelerate Growth</h2>
                         <span class="right-item-details-part">
                             <p>Financial Management module is a tightly integrated, Full- Featured Accounting System that automates the entire accounting processes with seamless flow of all revenue-related information from operations.</p>
-                            <p>The Inbuilt Approval System ensures that important transactions are not posted without approval from authorized personnel. The module Helps in regulation of credit limits of customers and tracks outstanding dues.</p>
                         </span>
                     </div>
 
@@ -176,24 +170,22 @@
                         <h2 class="right-item-sub-header">Integrated to Accelerate Growth</h2>
                         <span class="right-item-details-part">
                             <p>The Billing management helps automate the entire billing process by interfacing with every aspect of operations.</p>
-                            <p>Invoices, debit notes, credit notes and brokerage bills in multiple currencies can be handled with ease and accuracy.</p>
                         </span>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="block-seperator-yellow" style="background-color: #969594; height: 2px; width: 100%; margin: 0px auto;"></div>
+        <div class="block-seperator-yellow" style="background-color: #969594; height: 1px; width: 100%; margin: 0px auto;"></div>
         <div class="container content-block-2">
             <div class="row">
                 <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 content-block-sol-right">
                     <h1 class="right-prod-header"><img src="/images/trade-sys-logo.png" />&nbsp;&nbsp;Trade-Sys - International Trade Management</h1>
                     
                     <div id="Trade_Default" class="right-item-details item-def">
-                        <h1 class="right-item-header">PQRSTU</h1>
-                        <h2 class="right-item-sub-header">1234567980</h2>
+                                                <h1 class="right-item-header">Trade-Sys</h1>
+                        <h2 class="right-item-sub-header">Oragnize your international trade</h2>
                         <span class="right-item-details-part">
-                             <p>Export Management allows customers complete visibility of their shipment. For the customer it means real – Time Tracking of shipment status, along with History of shipments.</p>
-                             <p>Comprehensive search facility is available for customers to monitor their shipment.</p>
+                             <p>Trade-Sys is an easy to use online Supply Chain Platform for Importers, Exporters, 3 PL and 4 PL companies. It helps you to organize your supply chain operation from Purchase order to proof of delivery.</p>
                         </span>
                     </div>
 
@@ -202,7 +194,6 @@
                         <h2 class="right-item-sub-header">Integrated to Accelerate Growth</h2>
                         <span class="right-item-details-part">
                              <p>Export Management allows customers complete visibility of their shipment. For the customer it means real – Time Tracking of shipment status, along with History of shipments.</p>
-                             <p>Comprehensive search facility is available for customers to monitor their shipment.</p>
                         </span>
                     </div>
 
@@ -210,8 +201,7 @@
                         <h1 class="right-item-header">Import Management</h1>
                         <h2 class="right-item-sub-header">Integrated to Accelerate Growth</h2>
                         <span class="right-item-details-part">
-                            <p>For importers, compliance with customs procedures – a labyrinth of innumerable ever-changing laws, rules and regulations – is an extremely challenging task. The challenge increases manifold for those undertaking self-clearing. This is in addition to the challenge of managing the business, identifying and capturing new opportunities and satisfying existing principals.</p>
-                            <p>in Softlink, importers have a trusted partner for automation that contributes towards Simplifying Operations and enhanced profitability.</p>
+                            <p>For importers, compliance with customs procedures – a labyrinth of innumerable ever-changing laws, rules and regulations – is an extremely challenging task.</p>
                         </span>
                     </div>
 
@@ -220,12 +210,6 @@
                         <h2 class="right-item-sub-header">Integrated to Accelerate Growth</h2>
                         <span class="right-item-details-part">
                             <p> Trade_Procurement The integrated Sales and Service module has been designed especially for Logistics service providers (LSP) enabling 360 visibility.</p>
-                            <p>
-                                It manages sales right from the Inquiry to client acquisition covering the entire sales process.
-                                All Rates and Traiffs can be maintained, Quotations can be generated, Sales performance can 
-                                be measeured. The customer service feature tracks customer Interactions, including visits, and 
-                                consistency in terms of responsiveness.
-                            </p>
                         </span>
                     </div>
 
@@ -234,12 +218,6 @@
                         <h2 class="right-item-sub-header">Integrated to Accelerate Growth</h2>
                         <span class="right-item-details-part">
                             <p> Trade_LogisticsManagement The integrated Sales and Service module has been designed especially for Logistics service providers (LSP) enabling 360 visibility.</p>
-                            <p>
-                                It manages sales right from the Inquiry to client acquisition covering the entire sales process.
-                                All Rates and Traiffs can be maintained, Quotations can be generated, Sales performance can 
-                                be measeured. The customer service feature tracks customer Interactions, including visits, and 
-                                consistency in terms of responsiveness.
-                            </p>
                         </span>
                     </div>
 
@@ -248,12 +226,6 @@
                         <h2 class="right-item-sub-header">Integrated to Accelerate Growth</h2>
                         <span class="right-item-details-part">
                             <p> Trade_CustomsRegulatory The integrated Sales and Service module has been designed especially for Logistics service providers (LSP) enabling 360 visibility.</p>
-                            <p>
-                                It manages sales right from the Inquiry to client acquisition covering the entire sales process.
-                                All Rates and Traiffs can be maintained, Quotations can be generated, Sales performance can 
-                                be measeured. The customer service feature tracks customer Interactions, including visits, and 
-                                consistency in terms of responsiveness.
-                            </p>
                         </span>
                     </div>
 
@@ -262,12 +234,6 @@
                         <h2 class="right-item-sub-header">Integrated to Accelerate Growth</h2>
                         <span class="right-item-details-part">
                             <p> Trade_LicenseManagement The integrated Sales and Service module has been designed especially for Logistics service providers (LSP) enabling 360 visibility.</p>
-                            <p>
-                                It manages sales right from the Inquiry to client acquisition covering the entire sales process.
-                                All Rates and Traiffs can be maintained, Quotations can be generated, Sales performance can 
-                                be measeured. The customer service feature tracks customer Interactions, including visits, and 
-                                consistency in terms of responsiveness.
-                            </p>
                         </span>
                     </div>
 
@@ -276,12 +242,6 @@
                         <h2 class="right-item-sub-header">Integrated to Accelerate Growth</h2>
                         <span class="right-item-details-part">
                             <p> Trade_BusinessReporting The integrated Sales and Service module has been designed especially for Logistics service providers (LSP) enabling 360 visibility. </p>
-                            <p>
-                                It manages sales right from the Inquiry to client acquisition covering the entire sales process.
-                                All Rates and Traiffs can be maintained, Quotations can be generated, Sales performance can 
-                                be measeured. The customer service feature tracks customer Interactions, including visits, and 
-                                consistency in terms of responsiveness.
-                            </p>
                         </span>
                     </div>
 
@@ -290,12 +250,6 @@
                         <h2 class="right-item-sub-header">Integrated to Accelerate Growth</h2>
                         <span class="right-item-details-part">
                             <p> Trade_CustomerVisibility The integrated Sales and Service module has been designed especially for Logistics service providers (LSP) enabling 360 visibility.</p>
-                            <p>
-                                It manages sales right from the Inquiry to client acquisition covering the entire sales process.
-                                All Rates and Traiffs can be maintained, Quotations can be generated, Sales performance can 
-                                be measeured. The customer service feature tracks customer Interactions, including visits, and 
-                                consistency in terms of responsiveness.
-                            </p>
                         </span>
                     </div>
                 </div>
@@ -328,13 +282,15 @@
                         </li>
                     </ul>
                     <div class="clearfix"></div>
-                    <h1 class="left-footer" style="text-align: right; margin-right: 24px;">
+                    <h1 class="left-footer">
                         <a href="products/Trade-Sys.aspx">Read more about Trade-Sys</a>
                     </h1>
                     <p style="height: 10px;">&nbsp;</p>
                 </div>
             </div>
         </div>
+
+        <div class="background-gray1">
         <div class="container content-block-3">
             <div class="row" style="margin: 5px 0px 5px 0px;">
                 <div class="hidden-lg hidden-md col-sm-12 col-xs-12 content-block-news-left">
@@ -351,17 +307,21 @@
                                     <div class="row content-block-news-item">
                                         <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
                                             <div class="date-box-3">
-                                                <div class="dd">
-                                                    08
-                                                </div>
-                                                <div class="mm-yyyy">
-                                                    May, 2013
-                                                </div>
+                                                <a href="<%# Eval("URL")%>" target="_blank">
+                                                    <div class="dd">
+                                                        <%# Eval("Date", "{0:dd}")%>
+                                                    </div>
+                                                    <div class="mm-yyyy">
+                                                        <%# Eval("Date", "{0:MMM, yyyy}")%>
+                                                    </div>
+                                                </a>
                                             </div>
                                         </div>
                                         <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
-                                            <h2><%# Eval("title")%></h2>
-                                            <span><%# Eval("ShortDesc")%></span>
+                                            <a href="<%# Eval("URL")%>" target="_blank"style="color: #FFF;">
+                                                <h2><%# Eval("title")%></h2>
+                                                <span><%# Eval("ShortDesc")%></span>
+                                            </a>
                                         </div>
                                     </div>
                                 </li>
@@ -370,7 +330,7 @@
                         </ul>
                     </div>
                     <h3 class="news-read-more">
-                        <a href="http://www.liveimpex.in">Read more about News Highlights</a>
+                        <a href="/newsroom/newsroom.aspx">Read more news</a>
                     </h3>
                 </div>
                 <div class="col-lg-4 col-md-4 hidden-sm hidden-xs content-block-news-left">
@@ -380,11 +340,12 @@
                 </div>
             </div>
         </div>
+        </div>
 
         <%--<div class="block-seperator-yellow"></div>--%>
         
         <%--<div class="block-seperator-blue"></div>--%>
-
+        <div class="background-blue3">
         <div class="container content-block-5">
             <div class="row" style="">
                 <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 content-block-client-left">
@@ -392,13 +353,13 @@
                         Our Clients
                     </h1>
                     <h1 class="left-sub-header">
-                        Trusted by over 50,000 users
+                        Trusted by over 60,000 users
                     </h1>
                     <p>
                         Softlink products have been successfully implemented and used by Exporters, Importers, Custom House Agents/ Customs Brokers, Freight Forwarders, NVOCCs, 3PL companies, IATA cargo agents, Air Freight and Sea Freight forwarding companies and other logistics service provIDers. Softlink has over 50,000 satisfied users in more than 2,500 organisations across the globe
                     </p>
                     <h3 class="our-client-more">
-                        <a href="http://www.liveimpex.in">Read More Case Studies</a>
+                        <a href="/ourclients/ourclients.aspx">Read client success stories</a>
                     </h3>
                 </div>
                 <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 content-block-client-right">
@@ -459,6 +420,7 @@
                 </div>
                 <div class="clearfix"></div>
             </div>
+        </div>
         </div>
         <uc2:demo ID="demo1" Details="Live Impex" runat="server" />
         <uc1:subscribe ID="subscribe1" runat="server" />

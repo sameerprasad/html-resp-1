@@ -16,7 +16,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 main-content">
-                    <h1 class="c-header"><img src="/images/trade-sys-logo.png" />&nbsp;&nbsp;Trade-Sys Product Overview</h1>
+                    <h1 class="c-header"><%--<img src="/images/trade-sys-logo.png" />&nbsp;&nbsp;--%>Trade-Sys Product Overview</h1>
                     <p class="c-para">
                         Trade-Sys is an easy to use online Supply Chain Platform for Importers, Exporters, 3 PL and 4 PL companies. It helps you to organize your supply chain operation from Purchase order to proof of delivery.
                     </p>

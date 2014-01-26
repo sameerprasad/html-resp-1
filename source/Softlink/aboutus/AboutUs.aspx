@@ -33,7 +33,6 @@
             </div>
         </div>
     </div>
-    <div class="blank-seperator">&nbsp;</div>
     <div class="sublink-wrapper background-gray">
         <div class="container">
             <div class="row">
@@ -120,7 +119,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 sub-content">
-                    <h1 class="c-header" style="color: #fff;">Success Stories</h1>
+                    <h1 class="c-header" style="color: #fff;">Client Success Stories</h1>
                     <div class="row success-box">
                         <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
                             <img class="img-responsive pr-img" src="/images/clients/bax_logo.jpg">
@@ -132,23 +131,17 @@
                     </div>
                     <div class="row success-box">
                         <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                            <img class="img-responsive pr-img" src="/images/clients/bax_logo.jpg">
+                            <img class="img-responsive pr-img" src="/images/clients/dhl_logo.gif">
                         </div>
                         <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
-                            <p>“Softlink brings a complete depth and width of expertise in providing holistic software solutions for Logistics sector. Logi-Sys – a web-based ERP solution is specifically designed after understanding the culture of Logistic industry. Logi-Sys will help us simplify our operations and enhance productivity in a cost efficient manner”.</p>
-                            <h2>- Mr. Sunil Krishnan, MD, Logistic Integrators</h2>
+                            <p>“Softlink’s understanding of our requirements and the timely updates that they provide for their products has enabled us to support our customers better. We have been their loyal customers for over 10 years.”</p>
+                            <h2>- Jason D’Souza, Director IT, DHL Lemuir Logistics Pvt. Ltd.</h2>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-    <div class="sublink-wrapper background-lightgray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 sub-content">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 sub-content" style="padding-top: 0;">
                     <h3>
-                        Read more about <a href="#">success stories</a>
+                        Read <a href="#">client success stories</a>
                     </h3>
                 </div>
             </div>

@@ -16,7 +16,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 main-content">
-                    <h1 class="c-header"><img src="/images/logi-sys-logo.png" />&nbsp;&nbsp;Logi-Sys Product Overview</h1>
+                    <h1 class="c-header"><%--<img src="/images/logi-sys-logo.png" />&nbsp;&nbsp;--%>Logi-Sys Product Overview</h1>
                     <p class="c-para">
                         Logi-Sys is an easy to use online Cloud ERP Platform for Freight Forwarding & Logistics Industry. Helps you to organize your Operations & Financial accounting in one platform.
                     </p>
@@ -26,21 +26,21 @@
             </div>
         </div>
     </div>
-    <div class="sublink-wrapper background-darkgray">
+    <div class="sublink-wrapper">
         <div class="container">
             <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <div class="prod-sublink">
+                        <a href="/PDF/Logi-Sys.pdf" target="_blank">Download Brochure</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <div class="prod-sublink">
+                        <a href="/resources/resources.aspx" class="prod-sublink">Case Studies</a>
+                    </div>
+                </div>
                 <div class="col-lg-6 col-md-6 hidden-sm hidden-xs">
                     &nbsp;
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-                    <div class="prod-sublink">
-                        <a href="#">Download Brochure</a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-                    <div class="prod-sublink">
-                        <a href="#" class="prod-sublink">Case Studies</a>
-                    </div>
                 </div>
             </div>
         </div>
@@ -51,7 +51,7 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 sub-content">
                     <h3>
-                        For More Information Click here <a href="http://www.logisys.in">www.logisys.in/</a>
+                        Visit <a href="http://www.logisys.in">www.logisys.in/</a> for more information
                     </h3>
                 </div>
             </div>
@@ -80,7 +80,7 @@
                 <div class="stacked-wrapper first-stack">
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
                         <div class="stacked-l-item">
-                            <h1>Sales & Services(CRM)</h1>
+                            <h1>CRM (Sales & Services)</h1>
                             <ul>
                                 <li>Request for Quote</li>
                                 <li>Quotations</li>
@@ -111,11 +111,10 @@
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
                         <div class="stacked-r-item">
-                            <h1>Freight Forwarding Operations</h1>
+                            <h1>Freight Management System</h1>
                             <ul>
                                 <li>Ocean freight</li>
                                 <li>Air freight</li>
-                                <li>Inland Transport</li>
                                 <li>Documentation & Compliance</li>
                             </ul>
                         </div>
@@ -125,10 +124,12 @@
                 <div class="stacked-wrapper">
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
                         <div class="stacked-l-item">
-                            <h1>Warehousing</h1>
+                            <h1>Warehouse Management</h1>
                             <ul>
                                 <li>Inbound</li>
                                 <li>Outbound</li>
+                                <li>Repacking</li>
+                                <li>Location Transfer</li>
                             </ul>
                         </div>
                     </div>
@@ -143,25 +144,144 @@
                     </div>
                     <div class="clearfix"></div>
                 </div>
-                <div class="stacked-wrapper last-stack">
+                <div class="stacked-wrapper">
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 hidden-xs">
+                        <div class="stacked-l-item">
+                            <img class="img-responsive c-img center-block" src="/images/logi-truck.png">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+                        <span class="stacked-dot">4</span>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                        <div class="stacked-r-item">
+                            <h1>Inland Transportation</h1>
+                            <ul>
+                                <li>Pickup Request</li>
+                                <li>Trip</li>
+                                <li>Transport Receipts</li>
+                                <li>Google Navigation</li>
+                                <li>PO</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="stacked-wrapper">
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                        <div class="stacked-l-item">
+                            <h1>Container Management</h1>
+                            <ul>
+                                <li>Own/Lease Container Tracking</li>
+                                <li>Delivery Orders</li>
+                                <li>Allocation & Returns</li>
+                                <li>Yard to Yard Transfers</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+                        <span class="stacked-dot">5</span>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 hidden-xs">
+                        <div class="stacked-r-item">
+                            <img class="img-responsive c-img center-block" src="/images/logi-container.png">
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="stacked-wrapper">
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 hidden-xs">
+                        <div class="stacked-l-item">
+                            <img class="img-responsive c-img center-block" src="/images/logi-po.png">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+                        <span class="stacked-dot">6</span>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                        <div class="stacked-r-item">
+                            <h1>Purchase Order</h1>
+                            <ul>
+                                <li>Inbound & Outbound PO</li>
+                                <li>PO Fullfillment</li>
+                                <li>Tracking</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="stacked-wrapper">
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                        <div class="stacked-l-item">
+                            <h1>Custom Broking</h1>
+                            <ul>
+                                <li>India Customs</li>
+                                <li>Us Customs</li>
+                                    <ul>
+                                        <li>AES Filing</li>
+                                        <li>AMS & ISF</li>
+                                    </ul>
+                                <li>Country Specefic Integration</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+                        <span class="stacked-dot">7</span>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 hidden-xs">
+                        <div class="stacked-r-item">
+                            <img class="img-responsive c-img center-block" src="/images/logi-customs.png">
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="stacked-wrapper">
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 hidden-xs">
                         <div class="stacked-l-item">
                             <img class="img-responsive c-img center-block" src="/images/logi-note.png">
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 last-stack-sep">
-                        <span class="stacked-dot">4</span>
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+                        <span class="stacked-dot">8</span>
                         <div class="clearfix"></div>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
                         <div class="stacked-r-item">
                             <h1>Financial Accounting</h1>
                             <ul>
-                                <li>Money in</li>
-                                <li>Money out</li>
-                                <li>Tax (Service Tax, VAT, With holiding)</li>
+                                <li>Money in (Customer Invoice, Receipt)</li>
+                                <li>Money out (Vendor Bill, Payment)</li>
+                                <li>Tax (Service Tax, VAT, Withholiding)</li>
                                 <li>Financial Statements</li>
+                                <li>Multi Currency and Branch Accounting</li>
                             </ul>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="stacked-wrapper last-stack">
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                        <div class="stacked-l-item">
+                            <h1>Customer Visibility</h1>
+                            <ul>
+                                <li>Shipment, Inventory & Order Tracking</li>
+                                <li>Online Booking & Approvals</li>
+                                <li>Online Cargo Release</li>
+                                <li>Invoice & Outstanding Tracking</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 last-stack-sep">
+                        <span class="stacked-dot">9</span>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 hidden-xs">
+                        <div class="stacked-r-item">
+                            <img class="img-responsive c-img center-block" src="/images/logi-visibility.png">
                         </div>
                     </div>
                     <div class="clearfix"></div>
@@ -181,10 +301,20 @@
     <div class="sublink-wrapper">
         <div class="container">
             <div class="row think-box">
-                <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <h1>Siddharth Jairaj</h1>
                     <h2>Director, TVS Dynamics</h2>
-                    <p>We have confidence in Softlink and “Logi-Sys” as it has passed our evaluation process. Both our teams worked closely to ensure timelines were met and successful implementation by softlink and TVS dynamics. TVS Dynamics selected “Logi-Sys” from among the number of software available in the market, after subjecting them to stringent evaluation process. The highlight of the software deployment was the implementation of “Logi-Sys” with record time which was completed within 30 days.</p>
+                    <p>We have confidence in Softlink and “Logi-Sys” as it has passed our evaluation process. Both our teams worked closely to ensure timelines were met and successful implementation by softlink and TVS dynamics.</p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <h1>Jigna Bhatt</h1>
+                    <h2>Randeep Exports</h2>
+                    <p>We are extremely satisfied with Softlink’s products. We appreciate their documentation and report generation feature the most. Now we can create one-touch documents and reports for all our operations.</p>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <h3 class="think-box-read-more">
+                    Read more <a href="#">client success stories</a>
+                </h3>
                 </div>
             </div>
         </div>

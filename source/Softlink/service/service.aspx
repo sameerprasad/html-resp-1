@@ -16,13 +16,12 @@
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 main-content">
                     <h1 class="c-header">Services</h1>
                     <p class="c-para">
-                        <img class="img-responsive c-img" src="/images/services.png" alt="Services" height="266" width="265">
                         Softlink has a strong technology services capability that builds on our domain expertise and experience in logistics and international trade for over two decades. We provide Consulting, Application Development and Outsourced Product Development to companies worldwide. We work together with our clients to leverage technology to automate operations,starting from consulting, to actually developing the applications. 
                     </p>
                     <p class="c-para">
                         The range of services includes software development, maintenance, conversion, migration and application enhancement. For over two decades, Softlink has been symonymous with strong technological and innovative solutions in the logistics industry.
                     </p>
-
+                    <img class="img-responsive center-block" src="/images/services.png" alt="Services" height="370" width="370">
                     <div class="clearfix"></div>
                 </div>
             </div>

@@ -14,15 +14,35 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 main-content">
-                    <h1 class="c-header">Our Support System</h1>
+                    <h1 class="c-header">Support Services</h1>
                     <p class="c-para">
                         <img class="img-responsive c-img" src="/images/our-support.jpg" alt="Our Support" height="266" width="265">
-                        Softlink support services help you realize the immense power of our products for your business growth. At Softlink, support means supporting the customer and the product. We focus on three aspects of support – customer support, software maintenance and product updates. Softlink takes great pride in its reputation for providing exceptional customer support since beginning operations in 1992. 
+                        Softlink support services help you realize the immense power of our products for your business growth. At Softlink, support means supporting the customer and the product.
+                    </p>
+                    <ul class="c-list-orderd">
+                        <li>We focus on three aspects of support:</li>
+                        <li>A) Customer support</li>
+                        <li>B) Software maintenance</li>
+                        <li>C) Product updates</li>
+                    </ul>
+                    <p class="c-para">
+                        Softlink takes great pride in its reputation for providing exceptional customer support since beginning operations in 1992. 
                     </p>
                     <p class="c-para">
                         Our global customers expect and receive a quick response to their queries and a timely resolution to problems through multiple communication channels such as telephone, email, online chat and personal visits. Over 90% renewals of product licenses prove that we have succeeded in the area of customer service and support. 
                     </p>
-
+                    <h1 class="c-header background-gray" style="padding: 15px 20px; text-align: center;font-size: 20px;">
+                        With our support system in Asia, we are to able to deliver outstanding services to over 60,000 satisfied users across 3000 companies.
+                    </h1>
+                    <p class="c-para">
+                        The support services will be provided by following modes for reporting any Query, Defects and Requirements.
+                    </p>
+                    <ul class="support-list">
+                        <li>Web Based Ticketing System</li>
+                        <li>Electronic Mail Support</li>
+                        <li>Support by Telephone</li>
+                        <li>Third party Online Chat tool</li>
+                    </ul>
                     <div class="clearfix"></div>
                 </div>
             </div>
@@ -32,14 +52,36 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 sub-content">
+                    <h1 class="c-header">Training Services</h1>
                     <p class="c-para">
-                        All clients are required to register their software for product support and updates. This will enable us to authenticate you as a genuine user of our products and provide you with most recent updates instantly. Every product or resource that Softlink provides comes with a complete package of support systems. As a user, you get customer support, software maintenance and the fastest product updates. Over 60,000 satisfied customers from 2,500 organization across the globe stand testimony to our swift services and timely upgrades. This has been our strength and core objective right from the day we started.
+                        With our 20+ years deep domain expertise and experience we have build comprehensive training program to train your staff on our software solution.
+                        To help you achieve the most from your Softlink solution, we offer training programs customized towards your specific IT environment, level of expertise and bussiness needs.
                     </p>
+                    <span style="font-size: 18px; color: #111;">Training methods :</span>
+                    <ul class="support-list">
+                        <li>Online Training</li>
+                        <li>Classroom Training (Softlink confrence room)</li>
+                        <li>Onsite Training (Customer Location)</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
-    <div class="prod-upd-wrapper">
+    <div class="sublink-wrapper background-light-blue">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 sub-content">
+                    <h1 class="c-header">Implementation Service</h1>
+                    <p class="c-para">
+                        With our proven "4 step" fastest implementation Program, Softlink has successfully implemented “Logi-sys”
+                        globally and trained 5000 users across 300 individual location in last 1 year and are handling 1 million transactions every day
+                    </p>
+                    <img class="img-responsive center-block c-img" style="float: none;" src="/images/support-bottom.png" alt="" height="255" width="960">
+                </div>
+            </div>
+        </div>
+    </div>
+    <%--<div class="prod-upd-wrapper">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 prod-upd-left">
@@ -251,7 +293,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>--%>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="footer" runat="Server">
 </asp:Content>

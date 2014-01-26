@@ -24,9 +24,9 @@ $(document).ready(function () {
 
         var elem = $(this).find("div").first();
         if (elem.hasClass("selected")) {
-            elem.removeClass("selected");
+            elem.removeClass("selected").find("img:first").attr("src", "/images/arrow-down.png");
         } else {
-            elem.addClass("selected");
+            elem.addClass("selected").find("img:first").attr("src", "/images/arrow-up.png");
         }
         $("#cust-login-container").slideToggle();
     });
@@ -78,40 +78,87 @@ function initIndexFunctions() {
         var $list_2 = $(".content-block-2 .left-item-list");
         var $list_items_2 = $(".content-block-2 .right-item-details");
         var $list_items_2_def = $(".content-block-2 .item-def");
+        var timer_1, timer_2;
+        var curr_item_1, curr_item_2;
 
         $list_1.on("mouseenter", "a", function (e) {
-            var $active = $(this);
-            var target = $active.attr("href");
-            $list_items_1.hide();
-            $(target).show();
-            $active.addClass("active");
+            clearTimeout(timer_1);
+            curr_item_1 = this;
+            timer_1 = setTimeout(function () {
+                showList1();
+            }, 500);
         });
         $list_1.on("mouseleave", "a", function (e) {
-            reset_list_1();
+            clearTimeout(timer_1);
+            timer_1 = setTimeout(function () {
+                hideList1();
+            }, 400);
         });
+
+        function showList1() {
+            //console.log(curr_item);
+            clearTimeout(timer_1);
+            var $active_1 = $(curr_item_1);
+
+            var target_1 = $active_1.attr("href");
+            $list_1.find("a").removeClass("active");
+            $list_items_1.hide();
+            $(target_1).fadeIn("fast");
+            $active_1.addClass("active");
+        }
+
+        function hideList1() {
+            clearTimeout(timer_1);
+            timer_1 = setTimeout(reset_list_1, 200);
+            //reset_list_1();
+        }
 
         function reset_list_1() {
             $list_1.find("a").removeClass("active");
             $list_items_1.hide();
-            $list_items_1_def.show();
+            $list_items_1_def.fadeIn("fast");
         }
 
+        /*******************************************************************/
+
         $list_2.on("mouseenter", "a", function (e) {
-            var $active = $(this);
-            var target = $active.attr("href");
-            $list_items_2.hide();
-            $(target).show();
-            $active.addClass("active");
+            clearTimeout(timer_2);
+            curr_item_2 = this;
+            timer_2 = setTimeout(function () {
+                showList2();
+            }, 500);
         });
         $list_2.on("mouseleave", "a", function (e) {
-            reset_list_2();
+            clearTimeout(timer_2);
+            timer_2 = setTimeout(function () {
+                hideList2();
+            }, 400);
         });
+
+        function showList2() {
+            clearTimeout(timer_2);
+            var $active_2 = $(curr_item_2);
+
+            var target_2 = $active_2.attr("href");
+            $list_2.find("a").removeClass("active");
+            $list_items_2.hide();
+            $(target_2).fadeIn("fast");
+            $active_2.addClass("active");
+        }
+
+        function hideList2() {
+            clearTimeout(timer_2);
+            timer_2 = setTimeout(reset_list_2, 200);
+            //reset_list_2();
+        }
 
         function reset_list_2() {
             $list_2.find("a").removeClass("active");
             $list_items_2.hide();
-            $list_items_2_def.show();
+            $list_items_2_def.fadeIn("fast");
         }
+
+        /*******************************************************************/
 
         $(".left-item-list").on("click", "a", function (e) {
             e.preventDefault();
@@ -178,9 +225,9 @@ function initIndexFunctions() {
         //});
 
         // NEWS
-        $('#new-ticker').vTicker({
-            showItems: 3
-        });
+        //$('#new-ticker').vTicker({
+        //    showItems: 3
+        //});
     });
 }
 

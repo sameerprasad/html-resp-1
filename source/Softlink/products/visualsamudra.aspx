@@ -7,7 +7,7 @@
     <div class="container banner-container">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 main-banner">
-                <img src="/images/sliders/visual-samudra.png" width="100%" />
+                <img src="/images/sliders/visual_samudra.png" width="100%" />
             </div>
         </div>
     </div>
@@ -29,21 +29,21 @@
             </div>
         </div>
     </div>
-    <div class="sublink-wrapper background-darkgray">
+    <div class="sublink-wrapper">
         <div class="container">
             <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <div class="prod-sublink">
+                        <a href="../PDF/visual_samudra.pdf">Download Brochure</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <div class="prod-sublink">
+                        <a href="../resources/resources.aspx" class="prod-sublink">Case Studies</a>
+                    </div>
+                </div>
                 <div class="col-lg-6 col-md-6 hidden-sm hidden-xs">
                     &nbsp;
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-                    <div class="prod-sublink">
-                        <a href="#">Download Brochure</a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-                    <div class="prod-sublink">
-                        <a href="#" class="prod-sublink">Case Studies</a>
-                    </div>
                 </div>
             </div>
         </div>
