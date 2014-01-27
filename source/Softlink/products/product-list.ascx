@@ -31,7 +31,7 @@
                     <a href="/products/logiSys.aspx" class='<%= No == 6 ? "active" : "" %>'><span>Logi-Sys</span></a>
                 </li>
                 <li>
-                    <a href="/products/xponent.aspx" class='<%= No == 7 ? "active" : "" %>'><span>X-ponent</span></a>
+                    <a href="/products/Trade-Sys.aspx" class='<%= No == 7 ? "active" : "" %>'><span>Trade-Sys</span></a>
                 </li>
                 <li>
                     <a href="/products/trackyourcargo.aspx" class='<%= No == 8 ? "active" : "" %>'><span>TrackYourCargo</span></a>

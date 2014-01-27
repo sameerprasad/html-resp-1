@@ -13,6 +13,7 @@
         .only-site-map .map-right-item li {
             background: url('../images/dot.png') no-repeat;
             background-position: left center;
+            padding-left: 12px;
         }
     </style>
 </asp:Content>
@@ -37,102 +38,97 @@
                     <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-block-map-right-col">
                         <div class="map-right-item">
                             <h1>
-                                <a href="/products/products.aspx">Products</a>
+                                <a href="/products/logiSys.aspx">Logi-Sys</a>
                             </h1>
                             <ul>
                                 <li>
-                                    <a href="/products/visualakash.aspx">Visual Akash</a>
+                                    <a href="/products/logiSys.aspx">Freight Forwarding</a>
                                 </li>
                                 <li>
-                                    <a href="/products/visualsamudra.aspx">Visual Samudra</a>
+                                     <a href="/products/logiSys.aspx">Inland Transport</a>
                                 </li>
                                 <li>
-                                    <a href="/products/visualimpex.aspx">Visual IMPEX</a>
+                                    <a href="/products/logiSys.aspx">Warehousing</a>
                                 </li>
                                 <li>
-                                    <a href="/products/visualxport.aspx">Visual X-Port</a>
+                                     <a href="/products/logiSys.aspx">Container Management</a>
+                                </li>
+                                <li>
+                                    <a href="/products/logiSys.aspx">Customs & Regulatory</a>
+                                </li>
+                                <li>
+                                    <a href="/products/logiSys.aspx">Sales & Service (CRM)</a>
+                                </li>
+                                <li>
+                                     <a href="/products/logiSys.aspx">Financial Accounting</a>
+                                </li>
+                                <li>
+                                       <a href="/products/logiSys.aspx">Customer Visibility</a>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-block-map-right-col">
+                        <div class="map-right-item">
+                            <h1>
+                                <a href="/products/Trade-Sys.aspx">Trade-Sys</a>
+                            </h1>
+                            <ul>
+                                <li>
+                                    <a href="/products/Trade-Sys.aspx">Export Management</a>
+                                </li>
+                                <li>
+                                     <a href="/products/Trade-Sys.aspx">Import Management</a>
+                                </li>
+                                <li>
+                                     <a href="/products/Trade-Sys.aspx">Procurement</a>
+                                </li>
+                                <li>
+                                     <a href="/products/Trade-Sys.aspx">Logistics Management</a>
+                                </li>
+                                <li>
+                                     <a href="/products/Trade-Sys.aspx">Customs & Regulatory</a>
+                                </li>
+                                <li>
+                                     <a href="/products/Trade-Sys.aspx">License Management</a>
+                                </li>
+                                <li>
+                                    <a href="/products/Trade-Sys.aspx">Business Reporting</a>
+                                </li>
+                                <li>
+                                     <a href="/products/Trade-Sys.aspx">Customer Visibility</a>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-block-map-right-col">
+                        <div class="map-right-item">
+                            <h1>
+                                <a href="#">Desktop Platforms & Impex</a>
+                            </h1>
+                            <ul>
+                                <li>
+                                    <a href="/products/visualsamudra.aspx">Visual Samudara</a>
+                                </li>
+                                <li>
+                                     <a href="/products/visualakash.aspx">Visual Akash</a>
                                 </li>
                                 <li>
                                     <a href="/products/visualaccounts.aspx">Visual Accounts</a>
                                 </li>
                                 <li>
-                                    <a href="/products/logiSys.aspx">Logi-Sys</a>
+                                    <a href="/products/visualxports.aspx">Visual Exports</a>
                                 </li>
                                 <li>
-                                    <a href="/products/xponent.aspx">X-Ponent</a>
+                                    <a href="/products/liveimpex.aspx">Live Impex</a>
                                 </li>
                                 <li>
-                                        <a href="/products/trackyourcargo.aspx">TrackYourCargo</a>
+                                    <a href="/products/visualimpex.aspx">Visual Impex</a>
                                 </li>
-                                <li>
-                                        <a href="/products/Trade-Sys.aspx">Trade-Sys</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-block-map-right-col">
-                        <div class="map-right-item">
-                            <h1>
-                                <a href="/solutions/solution.aspx">Solutions</a>
-                            </h1>
-                            <ul>
-                                <li>
-                                    <a href="/solutions/salesandservice.aspx">Sales & Service</a>
-                                </li>
-                                <li>
-                                    <a href="/solutions/freightforwarding.aspx">Freight Forwarding</a>
-                                </li>
-                                <li>
-                                    <a href="/solutions/transportmanagement.aspx">Transport Management</a>
-                                </li>
-                                <li>
-                                    <a href="/solutions/warehousemanagement.aspx">Warehouse management</a>
-                                </li>
-                                <li>
-                                    <a href="/solutions/containermanagement.aspx">Container Management</a>
-                                </li>
-                                <li>
-                                    <a href="/solutions/purchaseordermanagement.aspx">Purchase Order Management</a>
-                                </li>
-                                <li>
-                                    <a href="/solutions/custommanagement.aspx">Custom Management</a>
-                                </li>
-                                <li>
-                                    <a href="/solutions/financialmanagement.aspx">Financial Management</a>
-                                </li>
-                                <li>
-                                    <a href="/solutions/billingmanagement.aspx">Billing Management</a>
-                                </li>
-                                <li>
-                                    <a href="/solutions/exportmanagement.aspx">Export Management</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 content-block-map-right-col">
-                        <div class="map-right-item">
-                            <h1>
-                                <a href="/industriesserve/industriesserve.aspx">Industries We Serve</a>
-                            </h1>
-                            <ul>
-                                <li>
-                                    <a href="/industriesserve/exporters.aspx">Exporters</a>
-                                </li>
-                                <li>
-                                    <a href="/industriesserve/importers.aspx">Importers</a>
-                                </li>
-                                <li>
-                                    <a href="/industriesserve/chas.aspx">Custom House Agents/ Customs Brokers</a>
-                                </li>
-                                <li>
-                                    <a href="/industriesserve/freightforwarderstindustry.aspx">Freight Forwarders</a>
-                                </li>
-                                <li>
-                                    <a href="/industriesserve/novccs.aspx">NVOCCs</a>
-                                </li>
-                                <li>
-                                    <a href="/industriesserve/3PLcompanies.aspx">3PL Companies</a>
-                                </li>
+                                
+                                
                             </ul>
                         </div>
                         
@@ -160,19 +156,15 @@
                         </div>
                         <div class="map-right-item">
                             <h1>
-                                <a href="#">Enquiry</a>
+                                <a href="/enquiry.aspx">Enquiry</a>
                             </h1>
                         </div>
                         <div class="map-right-item">
                             <h1>
-                                <a href="#">Careers</a>
+                                <a href="/partners/partners.aspx">Partners</a>
                             </h1>
                         </div>
-                        <div class="map-right-item">
-                            <h1>
-                                <a href="#">Case Studies</a>
-                            </h1>
-                        </div>
+                       
                         <div class="map-right-item">
                             <h1>
                                 <a href="/service/service.aspx">Service</a>

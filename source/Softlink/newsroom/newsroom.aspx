@@ -18,14 +18,16 @@
                     
                     <div class="row news-events-box">
                         <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 date-box-wrap">
-                            <div class="date-box-1 center-block">
-                                <div class="dd">
-                                    08
+                            <a href="#">
+                                <div class="date-box-1 center-block">
+                                    <div class="dd">
+                                        08
+                                    </div>
+                                    <div class="mm-yyyy">
+                                        May, 2013
+                                    </div>
                                 </div>
-                                <div class="mm-yyyy">
-                                    May, 2013
-                                </div>
-                            </div>
+                            </a>
                         </div>
                         <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
                             <a href="#">
@@ -36,14 +38,16 @@
                     </div>
                     <div class="row news-events-box">
                         <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 date-box-wrap">
-                            <div class="date-box-1 center-block">
-                                <div class="dd">
-                                    19
+                            <a href="#">
+                                <div class="date-box-1 center-block">
+                                    <div class="dd">
+                                        19
+                                    </div>
+                                    <div class="mm-yyyy">
+                                        July, 2013
+                                    </div>
                                 </div>
-                                <div class="mm-yyyy">
-                                    July, 2013
-                                </div>
-                            </div>
+                            </a>
                         </div>
                         <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
                             <a href="#">
@@ -54,14 +58,16 @@
                     </div>
                     <div class="row news-events-box">
                         <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 date-box-wrap">
-                            <div class="date-box-1 center-block">
-                                <div class="dd">
-                                    13
+                            <a href="#">
+                                <div class="date-box-1 center-block">
+                                    <div class="dd">
+                                        13
+                                    </div>
+                                    <div class="mm-yyyy">
+                                        October, 2013
+                                    </div>
                                 </div>
-                                <div class="mm-yyyy">
-                                    October, 2013
-                                </div>
-                            </div>
+                            </a>
                         </div>
                         <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
                             <a href="#">
@@ -82,14 +88,16 @@
                     <h1 class="c-header">Press Releases</h1>
                     <div class="row press-releases-box">
                         <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 date-box-wrap">
-                            <div class="date-box-4 center-block">
-                                <div class="dd">
-                                    09
+                            <a href="#">
+                                <div class="date-box-4 center-block">
+                                    <div class="dd">
+                                        09
+                                    </div>
+                                    <div class="mm-yyyy">
+                                        May, 2013
+                                    </div>
                                 </div>
-                                <div class="mm-yyyy">
-                                    May, 2013
-                                </div>
-                            </div>
+                            </a>
                         </div>
                         <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
                             <a href="#">
@@ -99,14 +107,16 @@
                     </div>
                     <div class="row press-releases-box">
                         <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 date-box-wrap">
-                            <div class="date-box-4 center-block">
-                                <div class="dd">
-                                    20
+                            <a href="#">
+                                <div class="date-box-4 center-block">
+                                    <div class="dd">
+                                        20
+                                    </div>
+                                    <div class="mm-yyyy">
+                                        July, 2013
+                                    </div>
                                 </div>
-                                <div class="mm-yyyy">
-                                    July, 2013
-                                </div>
-                            </div>
+                            </a>
                         </div>
                         <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
                             <a href="#">
@@ -116,14 +126,16 @@
                     </div>
                     <div class="row press-releases-box">
                         <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 date-box-wrap">
-                            <div class="date-box-4 center-block">
-                                <div class="dd">
-                                    25
+                            <a href="#">
+                                <div class="date-box-4 center-block">
+                                    <div class="dd">
+                                        25
+                                    </div>
+                                    <div class="mm-yyyy">
+                                        August, 2013
+                                    </div>
                                 </div>
-                                <div class="mm-yyyy">
-                                    August, 2013
-                                </div>
-                            </div>
+                            </a>
                         </div>
                         <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
                             <a href="#">
@@ -133,14 +145,16 @@
                     </div>
                     <div class="row press-releases-box">
                         <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 date-box-wrap">
-                            <div class="date-box-4 center-block">
-                                <div class="dd">
-                                    01
+                            <a href="#">
+                                <div class="date-box-4 center-block">
+                                    <div class="dd">
+                                        01
+                                    </div>
+                                    <div class="mm-yyyy">
+                                        September, 2013
+                                    </div>
                                 </div>
-                                <div class="mm-yyyy">
-                                    September, 2013
-                                </div>
-                            </div>
+                            </a>
                         </div>
                         <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
                             <a href="#">
@@ -150,14 +164,16 @@
                     </div>
                     <div class="row press-releases-box">
                         <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 date-box-wrap">
-                            <div class="date-box-4 center-block">
-                                <div class="dd">
-                                    15
+                            <a href="#">
+                                <div class="date-box-4 center-block">
+                                    <div class="dd">
+                                        15
+                                    </div>
+                                    <div class="mm-yyyy">
+                                        September, 2013
+                                    </div>
                                 </div>
-                                <div class="mm-yyyy">
-                                    September, 2013
-                                </div>
-                            </div>
+                            </a>
                         </div>
                         <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
                             <a href="#">
@@ -177,14 +193,16 @@
                     
                     <div class="row media-clip-box">
                         <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 date-box-wrap">
-                            <div class="date-box-2 center-block">
-                                <div class="dd">
-                                    08
+                            <a href="#">
+                                <div class="date-box-2 center-block">
+                                    <div class="dd">
+                                        08
+                                    </div>
+                                    <div class="mm-yyyy">
+                                        September, 2013
+                                    </div>
                                 </div>
-                                <div class="mm-yyyy">
-                                    September, 2013
-                                </div>
-                            </div>
+                            </a>
                         </div>
                         <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
                             <a href="#">
@@ -195,14 +213,16 @@
                     </div>
                     <div class="row media-clip-box">
                         <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 date-box-wrap">
-                            <div class="date-box-2 center-block">
-                                <div class="dd">
-                                    11
+                            <a href="#">
+                                <div class="date-box-2 center-block">
+                                    <div class="dd">
+                                        11
+                                    </div>
+                                    <div class="mm-yyyy">
+                                        June, 2013
+                                    </div>
                                 </div>
-                                <div class="mm-yyyy">
-                                    June, 2013
-                                </div>
-                            </div>
+                            </a>
                         </div>
                         <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
                             <a href="#">
@@ -213,14 +233,16 @@
                     </div>
                     <div class="row media-clip-box">
                         <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 date-box-wrap">
-                            <div class="date-box-2 center-block">
-                                <div class="dd">
-                                    05
+                            <a href="#">
+                                <div class="date-box-2 center-block">
+                                    <div class="dd">
+                                        05
+                                    </div>
+                                    <div class="mm-yyyy">
+                                        June, 2013
+                                    </div>
                                 </div>
-                                <div class="mm-yyyy">
-                                    June, 2013
-                                </div>
-                            </div>
+                            </a>
                         </div>
                         <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
                             <a href="#">
@@ -231,14 +253,16 @@
                     </div>
                     <div class="row media-clip-box">
                         <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 date-box-wrap">
-                            <div class="date-box-2 center-block">
-                                <div class="dd">
-                                    03
+                            <a href="#">
+                                <div class="date-box-2 center-block">
+                                    <div class="dd">
+                                        03
+                                    </div>
+                                    <div class="mm-yyyy">
+                                        March, 2013
+                                    </div>
                                 </div>
-                                <div class="mm-yyyy">
-                                    March, 2013
-                                </div>
-                            </div>
+                            </a>
                         </div>
                         <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
                             <a href="#">
@@ -249,14 +273,16 @@
                     </div>
                     <div class="row media-clip-box">
                         <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 date-box-wrap">
-                            <div class="date-box-2 center-block">
-                                <div class="dd">
-                                    02
+                            <a href="#">
+                                <div class="date-box-2 center-block">
+                                    <div class="dd">
+                                        02
+                                    </div>
+                                    <div class="mm-yyyy">
+                                        February, 2013
+                                    </div>
                                 </div>
-                                <div class="mm-yyyy">
-                                    February, 2013
-                                </div>
-                            </div>
+                            </a>
                         </div>
                         <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
                             <a href="#">
