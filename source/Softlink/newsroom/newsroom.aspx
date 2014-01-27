@@ -75,19 +75,96 @@
         </div>
     </div>
     <div class="blank-seperator">&nbsp;</div>
-    <div class="sublink-wrapper background-gray">
+    <div class="content-wrapper background-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 sub-content">
                     <h1 class="c-header">Press Releases</h1>
-                    <img class="img-responsive hidden-xs c-img" src="/images/news-paper.png" alt="Benefits" style="margin-right: 20px; margin-bottom: 20px;">
-                    <ul class="c-list">
-                        <li><a href="#">EXIM</a></li>
-                        <li><a href="#">Shipping News</a></li>
-                        <li><a href="#">3PL companies</a></li>
-                        <li><a href="#">The Economic Times</a></li>
-                        <li><a href="#">Softlink's Logi-Sys expands client list</a></li>
-                    </ul>
+                    <div class="row press-releases-box">
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 date-box-wrap">
+                            <div class="date-box-4 center-block">
+                                <div class="dd">
+                                    09
+                                </div>
+                                <div class="mm-yyyy">
+                                    May, 2013
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
+                            <a href="#">
+                                <h1>EXIM</h1>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row press-releases-box">
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 date-box-wrap">
+                            <div class="date-box-4 center-block">
+                                <div class="dd">
+                                    20
+                                </div>
+                                <div class="mm-yyyy">
+                                    July, 2013
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
+                            <a href="#">
+                                <h1>Shipping News</h1>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row press-releases-box">
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 date-box-wrap">
+                            <div class="date-box-4 center-block">
+                                <div class="dd">
+                                    25
+                                </div>
+                                <div class="mm-yyyy">
+                                    August, 2013
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
+                            <a href="#">
+                                <h1>3PL companies</h1>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row press-releases-box">
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 date-box-wrap">
+                            <div class="date-box-4 center-block">
+                                <div class="dd">
+                                    01
+                                </div>
+                                <div class="mm-yyyy">
+                                    September, 2013
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
+                            <a href="#">
+                                <h1>The Economic Times</h1>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row press-releases-box">
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 date-box-wrap">
+                            <div class="date-box-4 center-block">
+                                <div class="dd">
+                                    15
+                                </div>
+                                <div class="mm-yyyy">
+                                    September, 2013
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
+                            <a href="#">
+                                <h1>Softlink's Logi-Sys expands client list</h1>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -210,7 +287,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <a href="#">
+                            <a href="/resources/expertspeak.aspx">
                                 <p class="c-para trade-read">Read this exclusive articles in latest issue of Trade Talk - our monthly newsletter</p>
                             </a>
                         </div>

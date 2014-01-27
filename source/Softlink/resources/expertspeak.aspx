@@ -18,7 +18,7 @@
                     <div class="exp-wrapper">
                         <div class="exp-item">
                             <a href="#">
-                                <h1>Twelve Most Important Technology support an Air Freight Forwarder needs</h1>
+                                <h1>How a Cloud ERP Platform can help to grow your business</h1>
                                 <h2>Amit Maheshwari, CEO, Softlink</h2>
                             </a>
                         </div>
@@ -30,8 +30,20 @@
                         </div>
                         <div class="exp-item">
                             <a href="#">
-                                <h1>Twelve Most Important Technology support an Air Freight Forwarder needs</h1>
+                                <h1>Logistics Mobile Apps – The next step in logistics automation</h1>
                                 <h2>Amit Maheshwari, CEO, Softlink</h2>
+                            </a>
+                        </div>
+                        <div class="exp-item">
+                            <a href="#">
+                                <h1>Cloud Gathering Storm – A Global Trend in IT in Logistics</h1>
+                                <h2>Amit Maheshwari, CEO, Softlink</h2>
+                            </a>
+                        </div>
+                        <div class="exp-item">
+                            <a href="#">
+                                <h1>Integrated IT solution - A must for ever changing needs of the Logistics Industry</h1>
+                                <h2>Bhavesh Solanki, Senior Manager International Business Development, Softlink</h2>
                             </a>
                         </div>
                     </div>

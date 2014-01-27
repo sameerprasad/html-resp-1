@@ -562,6 +562,51 @@ a.main-logo img
 
 /* News Events Ends */
 
+/* News Events Press Releases */
+
+.press-releases-box {
+    margin-top: 10px;
+}
+
+.press-releases-box h1 {
+    margin: 30px 0 8px 0;
+    color: #24211D;
+    font-size: 22px;
+}
+
+.press-releases-box p {
+    color: #605D5C;
+    line-height: 26px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.date-box-4 {
+    width: 95px;
+    margin-bottom: 20px;
+}
+
+.date-box-4 .dd {
+    text-align: center;
+    background: #fff;
+    -webkit-border-radius: 10px 10px 0px 0px;
+    -moz-border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
+    color: #0089E1;
+    font-size: 48px;
+    line-height: 85px;
+}
+
+.date-box-4 .mm-yyyy {
+    text-align: center;
+    background: #a1a1a1;
+    color: #24211D;
+    font-size: 12px;
+    padding: 4px;
+}
+
+/* News Events Press Releases Ends */
+
 /* News Events */
 .media-clip-box {
     margin-top: 10px;
@@ -795,6 +840,17 @@ a.main-logo img
     color: #1f1a17;
 }
 
+.case-small-list li h1 {
+    color: #605D5C;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.case-small-list li p {
+    color: #828180;
+    font-size: 16px;
+}
+
 .trade-small-list {
     list-style-type: none;
     margin: 0;
@@ -837,6 +893,10 @@ a.main-logo img
 .resource-read-more {
     font-size: 18px;
     color: #1f1a17;
+}
+
+.date-box-5 {
+    font-weight: 700;
 }
 
 .think-box-read-more {
@@ -1031,13 +1091,14 @@ a.main-logo img
 .cust-login-btn
 {
     margin: 5px 5px 10px 20px;
-    background-color: #1f1a17;
-    color: #afafaf;
+    background-color: #838381;
+    color: #FFFFFF;
 }
 
 .cust-login-btn:hover
 {
-    background-color: #616161;
+    background-color: #949393;
+    color: #FFFFFF;
 }
 
 .submenu

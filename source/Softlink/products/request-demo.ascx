@@ -28,7 +28,7 @@
                     <div class="row">
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                             <asp:HiddenField ID="hdnRequestProductDetails" runat="server" />
-                            <asp:Button ID="btnSubmit" ValidationGroup="req-demo-grp" Text="Submit" class="btn btn-primary pull-right c-btn-1" runat="server" />
+                            <asp:Button ID="btnSubmit" ValidationGroup="req-demo-grp" Text="Submit" class="btn btn-primary pull-right c-btn-2" runat="server" />
                         </div>
                     </div>
                 </div>

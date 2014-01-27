@@ -123,7 +123,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>--%>
     <div class="sublink-wrapper background-gray">
         <div class="container">
             <div class="row">
@@ -283,7 +283,7 @@
             </div>
         </div>
     </div>
-    <div class="sublink-wrapper background-lightgray">
+    <%--<div class="sublink-wrapper background-lightgray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 sub-content">

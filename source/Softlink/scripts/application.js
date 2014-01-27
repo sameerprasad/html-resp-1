@@ -86,13 +86,13 @@ function initIndexFunctions() {
             curr_item_1 = this;
             timer_1 = setTimeout(function () {
                 showList1();
-            }, 500);
+            }, 300);
         });
         $list_1.on("mouseleave", "a", function (e) {
             clearTimeout(timer_1);
             timer_1 = setTimeout(function () {
                 hideList1();
-            }, 400);
+            }, 300);
         });
 
         function showList1() {
@@ -126,13 +126,13 @@ function initIndexFunctions() {
             curr_item_2 = this;
             timer_2 = setTimeout(function () {
                 showList2();
-            }, 500);
+            }, 300);
         });
         $list_2.on("mouseleave", "a", function (e) {
             clearTimeout(timer_2);
             timer_2 = setTimeout(function () {
                 hideList2();
-            }, 400);
+            }, 300);
         });
 
         function showList2() {

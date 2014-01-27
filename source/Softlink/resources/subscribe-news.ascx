@@ -42,11 +42,16 @@
                     </div>
                     <div class="clearfix"></div>
                 </div>
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <h3 class="trade-talk-read-more">
-                        <a href="/resources/newsletters.aspx">Read newsletters</a>
-                    </h3>
-                </div>
+                <% 
+                    if (Page.AppRelativeVirtualPath == "~/index.aspx")
+                    { %>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <h3 class="trade-talk-read-more">
+                                <a href="/resources/newsletters.aspx">Read newsletters</a>
+                            </h3>
+                        </div>
+                    <% }
+                %>
             </div>
         </div>
     </div>
