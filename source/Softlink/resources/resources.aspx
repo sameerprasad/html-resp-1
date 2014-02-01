@@ -45,7 +45,7 @@
                         </li>
                     </ul>
                     <h3 class="resource-read-more">
-                        Read more about <a href="#">Case Studies</a>
+                        Read more about <a href="/resources/casestudy.aspx">Case Studies</a>
                     </h3>
                 </div>
             </div>

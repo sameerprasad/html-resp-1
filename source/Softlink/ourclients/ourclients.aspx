@@ -211,12 +211,12 @@
             </div>
         </div>
     </div>
-    <div class="sublink-wrapper background-lightgray">
+    <div class="sublink-wrapper background-gray">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 sub-content">
-                    <h3>
-                        Read more about <a href="#">Client testimonials & Case studies</a>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 sub-content" style="padding-top: 0;">
+                    <h3 style="color: #605D5C;">
+                        Read more about <a href="/resources/casestudy.aspx" style="color: #605D5C;">Client testimonials & Case studies</a>
                     </h3>
                 </div>
             </div>

@@ -280,8 +280,17 @@ a.main-logo img
     background: url('../images/addr-sep.png') center repeat-y;
 }
 
+.address-panel .panel-body .sub-address-wrapper {
+    background: url('../images/addr-sep.png') center repeat-y;
+}
+
 .address-content {
     
+}
+
+.address-panel .panel-title > a {
+    font-size: 22px;
+    display: block;
 }
 
 .address-content h1 {
@@ -317,6 +326,10 @@ a.main-logo img
 
 .address-seperator {
     
+}
+
+.address-bottom-seperator {
+    border-bottom: dotted 1px #afafaf;
 }
 
 .profile-box {
@@ -2975,6 +2988,10 @@ ul.sitemap .sitemap-item a:hover {
     .testmnl-small-info {
         position: static;
     }
+
+    .address-panel .panel-body .sub-address-wrapper {
+        background: none;
+    }
 }
 
 /* MOBILE */
@@ -3348,6 +3365,10 @@ ul.sitemap .sitemap-item a:hover {
 
     .testmnl-small-info h1, .testmnl-small-info h2 {
         margin: 5px 0 0 0;
+    }
+
+    .address-panel .panel-body .sub-address-wrapper {
+        background: none;
     }
 }
 

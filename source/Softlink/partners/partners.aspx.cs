@@ -42,7 +42,7 @@ public partial class partners_partners : System.Web.UI.Page
         {
             lblError.Text = string.Empty;
             lblError.ForeColor = System.Drawing.Color.Red;
-            if (CheckSave())
+            if (CheckSave() && IsValidCaptcha())
             {
                 if (CheckProducts())
                 {
@@ -90,6 +90,31 @@ public partial class partners_partners : System.Web.UI.Page
         catch (Exception ex)
         {
 
+        }
+    }
+
+    private bool IsValidCaptcha()
+    {
+        if (Session[AppKeys.SESSION_CAPTCHA_KEY] != null)
+        {
+            if (Session[AppKeys.SESSION_CAPTCHA_KEY].ToString() == txtCaptcha.Text)
+            {
+                return true;
+            }
+            else
+            {
+                lblError.Text = "Enter the correct captcha text";
+                lblError.ForeColor = System.Drawing.Color.Red;
+                txtCaptcha.Text = string.Empty;
+                return false;
+            }
+        }
+        else
+        {
+            lblError.Text = "Enter the correct captcha text";
+            lblError.ForeColor = System.Drawing.Color.Red;
+            txtCaptcha.Text = string.Empty;
+            return false;
         }
     }
 

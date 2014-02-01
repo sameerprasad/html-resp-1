@@ -1,6 +1,8 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Application.master" AutoEventWireup="true" CodeFile="visualsamudra.aspx.cs" Inherits="visualsamudra" %>
+
 <%@ Register src="product-list.ascx" tagname="product" tagprefix="uc1" %>
 <%@ Register src="request-demo.ascx" tagname="demo" tagprefix="uc2" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
