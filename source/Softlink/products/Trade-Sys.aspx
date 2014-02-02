@@ -51,7 +51,7 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 sub-content">
                     <h3>
-                        For More Information Click here <a href="http://www.tradesys.in">www.tradesys.in/</a>
+                        For more information click here <a href="http://www.tradesys.in" target="blank">www.tradesys.in</a>
                     </h3>
                 </div>
             </div>
@@ -188,7 +188,7 @@
         </div>
     </div>
     <uc2:demo ID="demo1" Details="Trade-Sys" runat="server" />
-    <uc1:product ID="product1" No="7" runat="server" />
+    <uc1:product ID="product1" No="5" runat="server" />
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="footer" runat="Server">
 </asp:Content>

@@ -53,13 +53,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 sub-content">
-                    <h1 class="c-header">Beneficial for :-</h1>
+                    <h1 class="c-header">Beneficial for</h1>
                     <p class="c-para" style="margin-bottom: 2px;">
                         Many large and small Sea Freight Forwarding companies are completely dependent on Visual Samudra to manage 
                         their Sea freight operations these include :-
                     </p>
                     <img class="img-responsive c-img" src="/images/benefits.png" alt="Benefits" style="margin-top: 42px;">
-                    <ul class="c-list">
+                    <ul class="support-list">
                         <li>Sea Freight Forwarders</li>
                         <li>NVOCCs</li>
                         <li>3PL companies</li>
@@ -75,7 +75,7 @@
         </div>
     </div>
     <uc2:demo ID="demo1" Details="Visual Samudra" runat="server" />
-    <uc1:product ID="product1" No="2" runat="server" />
+    <uc1:product ID="product1" No="8" runat="server" />
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="footer" runat="Server">
 </asp:Content>

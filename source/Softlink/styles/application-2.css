@@ -958,6 +958,11 @@ a.main-logo img
 {
     background: #949393;
 }
+.background-lightgray1
+{
+    background: #8db4e2;
+    
+}
 
 .background-darkgray
 {
@@ -1159,6 +1164,10 @@ a.main-logo img
 }
 
 .submenu-wrapper .header a {
+    color: #0da3cd;
+}
+
+.submenu-wrapper .header span {
     color: #0da3cd;
 }
 
@@ -1860,7 +1869,7 @@ a.main-logo img
 }
 
 .news-read-more a {
-    color: #1f1a17;
+    color: #fff;
 }
 
 .our-client-more {

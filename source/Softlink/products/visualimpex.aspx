@@ -51,7 +51,7 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 sub-content">
                     <h3>
-                        For More Information Click here <a href="http://www.liveimpex.in">www.liveimpex.in/</a>
+                        For More Information Click here <a href="http://www.liveimpex.in" target="_blank">www.liveimpex.in</a>
                     </h3>
                 </div>
             </div>
@@ -63,7 +63,7 @@
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 sub-content">
                     <h1 class="c-header">Features</h1>
                     <h1 class="c-sub-header">Visual IMPEX incorporates a range of powerful features:</h1>
-                    <ul class="c-list">
+                    <ul class="support-list">
                         <li>Generates and prints Bills of Entry / Shipping Bills for easy manual and online filing using ICEGATE.</li>
                         <li>Generates checklist for data verification before actual submission which helps prevent costly errors.</li>
                         <li>Reads and automatically processes all messages received from ICEGATE.</li>
@@ -87,13 +87,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 sub-content">
-                    <h1 class="c-header">Beneficial for :-</h1>
+                    <h1 class="c-header">Beneficial for</h1>
                     <p class="c-para" style="margin-bottom: 2px;">
                         A vast number of organization which encompass the logistics industry ecosystem rely on 
                         Visual IMPEX these include:-
                     </p>
                     <img class="img-responsive c-img" src="/images/benefits.png" alt="Benefits" style="margin-top: 42px;">
-                    <ul class="c-list">
+                    <ul class="support-list">
                         <li>Custom House Agents/ Customs Brokers</li>
                         <li>Importers</li>
                         <li>Exporters</li>
@@ -114,7 +114,7 @@
         </div>
     </div>
     <uc2:demo ID="demo1" Details="Visual Impex" runat="server" />
-    <uc1:product ID="product1" No="3" runat="server" />
+    <uc1:product ID="product1" No="6" runat="server" />
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="footer" runat="Server">
 </asp:Content>

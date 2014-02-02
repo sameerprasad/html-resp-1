@@ -13,16 +13,6 @@
 
     <div class="container content-container" style="background-image: none;">
         <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 main-slider">
-                <ul id="myTab" class="nav nav-tabs">
-                    <li><a href="/supports/support.aspx#overview">Product Overview</a></li>
-                    <li><a href="/supports/support.aspx#mysupport">My Support</a></li>
-                    <li><a href="/supports/support.aspx#productupdates">Product Updates</a></li>
-                    <li><a href="#" target="_blank">Live</a></li>
-                    <li><a href="#" >FAQ</a></li>
-                </ul>
-            </div>
-            
             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 login-form">
                 <h1 class="header">Customer Login</h1>
                 <asp:Label ID="lblError" Text="" class="input-error" runat="server" />

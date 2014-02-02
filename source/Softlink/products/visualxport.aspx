@@ -17,7 +17,7 @@
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 main-content">
                     <h1 class="c-header"><img src="../images/visual-impex-logo.png" /> Visual Export product overview</h1>
                     <p class="c-para">
-                        <img class="img-responsive c-img" src="/images/visual_export.jpg" alt="Visual Samudra" height="266" width="265">
+                        <img class="img-responsive c-img" src="/images/visual_xport.jpg" alt="Visual Samudra" height="266" width="265">
                         Visual X-Port is your most valuable ally in managing exports. It is unique Export Management Software that can actually  help you to achieve profitability and growth in your exports business. As an exporter, you focus on identifying opportunities and achieving growth, which requires your attention on many different fronts – from finding opportunities, to fulfilling them, to managing statutory procedures, and coordinating with the many different agencies involved. 
                     </p>
                     <p class="c-para">
@@ -55,13 +55,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 sub-content">
-                    <h1 class="c-header">Beneficial for :-</h1>
+                    <h1 class="c-header">Beneficial for</h1>
                     <p class="c-para" style="margin-bottom: 2px;">
                         Many leading Exporters have successfully deployed this unique Export Software in  India various organizations 
                         across industries:-
                     </p>
                     <img class="img-responsive c-img" src="/images/benefits.png" alt="Benefits" style="margin-top: 42px;">
-                    <ul class="c-list">
+                    <ul class="support-list">
                         <li>Merchant Exporters.</li>
                         <li>Manufacturing Exporters.</li>
                         <li>Multi-national Companies.</li>

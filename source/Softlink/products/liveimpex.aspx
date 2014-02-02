@@ -56,7 +56,7 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 sub-content">
                     <h3>
-                        For More Information Click here <a href="http://www.liveimpex.in">www.liveimpex.in/</a>
+                        For more information click here <a href="http://www.liveimpex.in" target="_blank">www.liveimpex.in</a>
                     </h3>
                 </div>
             </div>
@@ -144,7 +144,7 @@
         </div>
     </div>
     <uc2:demo ID="demo1" Details="Live Impex" runat="server" />
-    <uc1:product ID="product1" runat="server" />
+    <uc1:product ID="product1" No="2" runat="server" />
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="footer" runat="Server">
 </asp:Content>

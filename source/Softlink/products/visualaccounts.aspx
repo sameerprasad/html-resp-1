@@ -56,12 +56,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 sub-content">
-                    <h1 class="c-header">Beneficial for :-</h1>
+                    <h1 class="c-header">Beneficial for</h1>
                     <p class="c-para" style="margin-bottom: 2px;">
                         Visual Accounts can help fulfill the specific accounting needs of:
                     </p>
                     <img class="img-responsive c-img" src="/images/benefits.png" alt="Benefits" style="margin-top: 42px;">
-                    <ul class="c-list">
+                    <ul class="support-list">
                         <li>Customs House Agents/ Customs Brokers.</li>
                         <li>Freight Forwarders</li>
                         <li>Sea Freight Forwarders.</li>
@@ -79,7 +79,7 @@
         </div>
     </div>
     <uc2:demo ID="demo1" Details="Visual Samudra" runat="server" />
-    <uc1:product ID="product1" No="5" runat="server" />
+    <uc1:product ID="product1" No="3" runat="server" />
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="footer" runat="Server">
 </asp:Content>

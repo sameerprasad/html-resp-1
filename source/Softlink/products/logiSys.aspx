@@ -51,7 +51,7 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 sub-content">
                     <h3>
-                        Visit <a href="http://www.logisys.in">www.logisys.in/</a> for more information
+                        Visit <a href="http://www.logisys.in" target="_blank">www.logisys.in</a> for more information
                     </h3>
                 </div>
             </div>
@@ -320,7 +320,7 @@
         </div>
     </div>
     <uc2:demo ID="demo1" Details="Logi-Sys" runat="server" />
-    <uc1:product ID="product1" No="6" runat="server" />
+    <uc1:product ID="product1" No="1" runat="server" />
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="footer" runat="Server">
 </asp:Content>

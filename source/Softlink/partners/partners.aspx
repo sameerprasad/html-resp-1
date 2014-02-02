@@ -51,7 +51,7 @@
                     <p class="c-para">
                         The Softlink Partner Program offers valuable tools and resources to benefit partners, including: 
                     </p>
-                    <ul class="c-list">                        
+                    <ul class="support-list">                        
                         <li>Aggressive commissions</li>
                         <li>Training & Assistance</li>
                         <li>Access to campaigns</li>

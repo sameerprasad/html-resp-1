@@ -42,7 +42,7 @@
         </div>
     </div>
 
-    <uc1:product ID="product1" No="8" runat="server" />
+    <uc1:product ID="product1" No="4" runat="server" />
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="footer" runat="Server">
 </asp:Content>

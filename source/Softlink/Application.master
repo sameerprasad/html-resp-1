@@ -159,7 +159,7 @@
                             </div>
                             <div class="clearfix"></div>
                             <h1 class="header" style="margin-top: 8px;">
-                                &nbsp;<!--<a href="#">Desktop Platforms</a>-->
+                                <span>Desktop Platforms</span>
                             </h1>
                             <div class="item-wrapper">
                                 <div class="item-element" style="width: 100%;">
@@ -218,7 +218,7 @@
                             </div>
                             <div class="clearfix"></div>
                             <h1 class="header" style="margin-top: 8px;">
-                                &nbsp;<!--<a href="#">Desktop Platforms</a>-->
+                                <span>Desktop Platforms</span>
                             </h1>
                             <div class="item-wrapper">
                                 <div class="item-element" style="width: 100%;">
@@ -235,7 +235,7 @@
 
                         <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 submenu-wrapper">
                             <h1 class="header">
-                                &nbsp;<!--<a href="/products/visualimpex.aspx">Impex – India Customs</a>-->
+                                <span>Impex – India Customs</span>
                             </h1>
                             <div class="item-wrapper last-submenu-item">
                                 <div class="item-element">
@@ -259,7 +259,7 @@
                             </div>
                             <div class="clearfix"></div>
                             <h1 class="header" style="margin-top: 8px;">
-                                &nbsp;<!--<a href="#">Desktop Platforms</a>-->
+                                <span>Desktop Platforms</span>
                             </h1>
                             <div class="item-wrapper">
                                 <div class="item-element">
