@@ -289,11 +289,58 @@
             </div>
         </div>
     </div>
+    <div class="sublink-wrapper background-lightblue">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hidden-sm hidden-xs">
+                            <div class="ben-top-details">
+                                <h1 id="integration">Integrate global branch offices, customer, carriers, service providers & vendors for all your line of logistics business into one single platform</h1>
+                                <h1 id="collab-auto">Setup standard operating procedure with your business entities like customers, vendors for your business operation and reduce unnecessary time spent on clerical work to reduce errors and focus more on business activities</h1>
+                                <h1 id="imp-prod-eff">By achieving integrated fully automated processes along with auto email alerts, exception reporting & schedulers reports you will increase your team productivity and improves customer service efficiency</h1>
+                                <h1 id="cust-happy">By integrating your system with customer’s system you can now able to provide them real time visibility from PO to POD. A powerful track & trace system over web and on smart phones will also help your customer to track there consignment which are in process, transit and delivered</h1>
+                                <h1 id="control-measure">Logi-Sys gives you comprehensive operational and financial Management Business Reporting which will help you to take right decision at right time</h1>
+                                <h1 id="growth">The strategic goals of standardizing and accelerating business processes and providing improved visibility are the essential to improving business execution, which in turn supports the organizational goals of revenue and profit growth Logi-Sys Cloud ERP platform is the potential source of cost saving and operational improvements</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" id="benefit-anc">
+                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 ben-anchors anc-1">
+                            <a href="#integration">Integration</a>
+                            <h1 class="hidden-md hidden-lg">Integrate global branch offices, customer, carriers, service providers & vendors for all your line of logistics business into one single platform</h1>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 ben-anchors anc-2">
+                            <a href="#collab-auto">Collaboration & Automation</a>
+                            <h1 class="hidden-md hidden-lg">Setup standard operating procedure with your business entities like customers, vendors for your business operation and reduce unnecessary time spent on clerical work to reduce errors and focus more on business activities</h1>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 ben-anchors anc-3">
+                            <a href="#imp-prod-eff">Improve Productivity & Efficiency</a>
+                            <h1 class="hidden-md hidden-lg">By achieving integrated fully automated processes along with auto email alerts, exception reporting & schedulers reports you will increase your team productivity and improves customer service efficiency</h1>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 ben-anchors anc-4">
+                            <a href="#cust-happy">Keep your customer Happy</a>
+                            <h1 class="hidden-md hidden-lg">By integrating your system with customer’s system you can now able to provide them real time visibility from PO to POD. A powerful track & trace system over web and on smart phones will also help your customer to track there consignment which are in process, transit and delivered</h1>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 ben-anchors anc-5">
+                            <a href="#control-measure">Control and Measurement techniques</a>
+                            <h1 class="hidden-md hidden-lg">Logi-Sys gives you comprehensive operational and financial Management Business Reporting which will help you to take right decision at right time</h1>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 ben-anchors anc-6">
+                            <a href="#growth">Growth</a>
+                            <h1 class="hidden-md hidden-lg">The strategic goals of standardizing and accelerating business processes and providing improved visibility are the essential to improving business execution, which in turn supports the organizational goals of revenue and profit growth Logi-Sys Cloud ERP platform is the potential source of cost saving and operational improvements</h1>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
     <div class="sublink-wrapper background-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 sub-content">
-                    <h1 class="c-header" style="text-align: center;">More than 3,000+ users works online with Logi-sys See what they think</h1>
+                    <h1 class="c-header" style="text-align: center; margin-bottom: 0;">More than 3,000+ users works online with Logi-sys See what they think</h1>
                 </div>
             </div>
         </div>
@@ -323,4 +370,42 @@
     <uc1:product ID="product1" No="1" runat="server" />
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="footer" runat="Server">
+    <script type="text/javascript">
+        $(function () {
+            var all_v_tg_h = $(".ben-top-details h1");
+            var all_v_tg = $(".ben-anchors > a");
+
+            all_v_tg_h.first().addClass("active");
+            all_v_tg.first().addClass("active");
+
+            var v_tg;
+            var curr_v_tg;
+            var prev_v_tg_h;
+            var v_hover_timer;
+            all_v_tg.hover(function () {
+                curr_v_tg = $(this);
+                clearTimeout(v_hover_timer);
+                v_hover_timer = setTimeout(function () {
+                    do_transition();
+                }, 400);
+            });
+
+            function do_transition() {
+                v_tg = curr_v_tg.attr("href");
+
+                all_v_tg_h.each(function () {
+                    console.log($(this).hasClass("active"));
+                    if ($(this).hasClass("active")) {
+                        prev_v_tg_h = $(this).removeClass("active").hide();
+                    }
+                });
+
+                $(v_tg).fadeIn(function () {
+                    $(this).addClass("active");
+                });
+                all_v_tg.removeClass("active");
+                curr_v_tg.addClass("active");
+            };
+        });
+    </script>
 </asp:Content>

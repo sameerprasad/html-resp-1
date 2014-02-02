@@ -304,6 +304,23 @@
                         </asp:GridView>
                     </div>
                 </div>
+                <div class="form-group">
+                        <label class="col-lg-2 col-md-2 col-sm-12 col-xs-12 control-label">&nbsp;</label>
+                        <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-5 col-sm-5 col-xs-12">
+                                    <asp:TextBox ID="txtCaptcha" placeholder="Type the text" autocorrect="off" autocapitalize="off" autocomplete="off" class="form-control" runat="server" />
+                                    <img id="captcha_img" src="/captcha/captcha.ashx" alt="" style="border: solid 1px #DFDFDF; width: 211px;" />
+                                    <a href="#" class="btn btn-default" title="New text" onclick="document.getElementById('captcha_img').src = '/captcha/captcha.ashx?sid=' + Math.random(); this.blur(); return false">
+                                        <span class="glyphicon glyphicon-refresh"></span>
+                                    </a>
+                                </div>                                        
+                                <div class="col-lg-8 col-md-7 col-sm-7 col-xs-12">
+                                    <asp:RequiredFieldValidator ID="RequiredFieldValidatorCaptcha" CssClass="form-input-error" SetFocusOnError="true" Display="Dynamic" runat="server" ControlToValidate="txtCaptcha" ErrorMessage="Please enter captcha text."></asp:RequiredFieldValidator>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 <div class="clearfix"></div>
 
                 <asp:Button ID="btnSubmit" Text="Submit" class="btn btn-primary" runat="server" 

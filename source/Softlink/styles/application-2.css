@@ -962,6 +962,11 @@ a.main-logo img
     background: #DEDEDC;
 }
 
+.background-lightblue
+{
+    background: #CCECFF;
+}
+
 .background-light-blue
 {
     background: #b6c6d4;
@@ -1495,6 +1500,86 @@ a.main-logo img
 
 .blue-ver-line {
     /*background: url('../images/stack-sep.png') 20px top repeat-y;*/
+}
+
+.ben-top-details {
+    padding: 20px 10px 10px 10px;
+}
+
+.ben-top-details h1 {
+    color: #333;
+    text-align: center;
+    line-height: 50px;
+    font-size: 28px;
+    height: 200px;
+    display: none;
+}
+
+.ben-top-details h1.active {
+    display: block;
+}
+
+.ben-anchors {
+    background: url('../images/b-ancs.png') no-repeat;
+    text-align: center;
+    display: table;
+}
+
+.ben-anchors a.active {
+    background: url('../images/b-anc-hover.png') no-repeat 8px center;
+}
+
+.ben-anchors a:hover {
+    /*background: url('../images/b-anc-hover.png') no-repeat 8px center;*/
+}
+
+.ben-anchors.anc-1 {
+    background-position: right 0;
+}
+
+.ben-anchors.anc-2 {
+    background-position: right -116px;
+    /*padding-top: 38px;*/
+}
+
+.ben-anchors.anc-3 {
+    background-position: right -231px;
+    /*padding-top: 38px;*/
+}
+
+.ben-anchors.anc-4 {
+    background-position: right -346px;
+    /*padding-top: 38px;*/
+}
+
+.ben-anchors.anc-5 {
+    background-position: right -461px;
+    /*padding-top: 24px;*/
+}
+
+.ben-anchors.anc-6 {
+    background: none;
+}
+
+.ben-anchors.anc-6 a.active {
+    
+}
+
+.ben-anchors a {
+    color: #333;
+    font-size: 16px;
+    height: 115px;
+    /*padding-top: 46px;*/
+    vertical-align: middle;
+
+    display: table-cell;
+    vertical-align: middle;
+    line-height: normal;
+    padding-right: 20px;
+}
+
+.ben-anchors.anc-6 a {
+    background: url('../images/b-anc-cir.png') no-repeat 13px center;
 }
 /***************************************/
 
@@ -2817,6 +2902,10 @@ ul.sitemap .sitemap-item a:hover {
         height: 329px;
         overflow: auto;
     }
+
+    .ben-anchors.anc-6 a {
+        background-position: 0px center;
+    }
 }
 
 /* TABLET */
@@ -2990,6 +3079,38 @@ ul.sitemap .sitemap-item a:hover {
     }
 
     .address-panel .panel-body .sub-address-wrapper {
+        background: none;
+    }
+
+    .ben-anchors {
+        display: block;
+        background: none;
+    }
+
+    .ben-anchors a {
+        display: block;
+        padding-right: 0;
+        text-align: left;
+        height: auto;
+        font-size: 30px;
+        padding: 20px 0px 10px 0px;
+        border-bottom: dotted 1px #afafaf;
+        color: #333;
+    }
+
+    .ben-anchors.anc-6 a {
+        background: none;
+    }
+
+    .ben-anchors h1 {
+        font-size: 26px;
+        font-weight: normal;
+        text-align: left;
+        color: #605D5C;
+        padding-bottom: 20px;
+    }
+
+    .ben-anchors a:hover, .ben-anchors a.active {
         background: none;
     }
 }
@@ -3368,6 +3489,38 @@ ul.sitemap .sitemap-item a:hover {
     }
 
     .address-panel .panel-body .sub-address-wrapper {
+        background: none;
+    }
+
+    .ben-anchors {
+        display: block;
+        background: none;
+    }
+
+    .ben-anchors a {
+        display: block;
+        padding-right: 0;
+        text-align: left;
+        height: auto;
+        font-size: 30px;
+        padding: 20px 0px 10px 0px;
+        border-bottom: dotted 1px #afafaf;
+        color: #333;
+    }
+
+    .ben-anchors.anc-6 a {
+        background: none;
+    }
+
+    .ben-anchors h1 {
+        font-size: 26px;
+        font-weight: normal;
+        text-align: left;
+        color: #605D5C;
+        padding-bottom: 20px;
+    }
+
+    .ben-anchors a:hover, .ben-anchors a.active {
         background: none;
     }
 }
